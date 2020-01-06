@@ -40,7 +40,7 @@ Just like normaly adding two numbers, we begin from least-significant digits. If
 	4. next one input listnode.
 3. If carry = 1, append a new node with digit 1.
 ```
-{% hint style="danger" %}
+{% hint style="warning" %}
 Step 3 is neccessary. Without it, the program can't work for 456 + 654.
 {% endhint %}
 ```java
