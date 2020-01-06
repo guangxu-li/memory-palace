@@ -10,6 +10,7 @@
   * [References](cs/machine-learning/references.md)
 * [Leetcode](cs/leetcode/README.md)
   * [\*1. Two Sum](cs/leetcode/two-sum.md)
+  * [2. Add Two Numbers](cs/leetcode/add-two-numbers.md)
 
 ## Cognitive Science
 
