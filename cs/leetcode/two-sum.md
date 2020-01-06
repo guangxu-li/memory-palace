@@ -49,7 +49,7 @@ class solution {
 
 The best way to maintain a mapping of each element in the array to its index is a hash table. To improve the performance, change the array to a hash table.
 
-{% hint style="info" %}
+{% hint style="success" %}
 A hash table is built to reduce look up time from $$O(n)$$ to $$O(1)$$ by trading space for speed.
 {% endhint %}
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Introduction to basic concepts of machine learning. //TODO: add link for
+  Introduction to basic concepts of machine learning. // TODO: add link for
   Markov Process
 ---
 
