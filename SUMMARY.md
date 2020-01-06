@@ -12,5 +12,3 @@
   * [\*1. Two Sum](cs/leetcode/two-sum.md)
   * [2. Add Two Numbers](cs/leetcode/add-two-numbers.md)
 
-## Cognitive Science
-

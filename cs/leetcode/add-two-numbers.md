@@ -28,21 +28,24 @@ Explanation: 342 + 465 = 807.
 
 #### Algorithm
 
-Just like normaly adding two numbers, we begin from least-significant digits. If the sum of two numbers is larger than 10, then we need to add the carry to next digit.
+Just like normally adding two numbers, we begin from least-significant digits. If the sum of two numbers is larger than 10, then we need to add the carry to the next digit.
 
 **Pseudocode**
-```
+
+```text
 1. Initialize a node to containing results.
 2. Loop through inputs.
-	1. set sum = x + y + carry
-	2. set carry = sum / 10
-	3. node.next = ListNode(sum % 10)
-	4. next one input listnode.
+    1. set sum = x + y + carry
+    2. set carry = sum / 10
+    3. node.next = ListNode(sum % 10)
+    4. next one input listnode.
 3. If carry = 1, append a new node with digit 1.
 ```
+
 {% hint style="warning" %}
-Step 3 is neccessary. Without it, the program can't work for 456 + 654.
+Step 3 is necessary. Without it, the program can't work for 456 + 654.
 {% endhint %}
+
 ```java
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode dummyHead = new ListNode(0);
@@ -66,5 +69,7 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 ```
 
 #### Complexity Analysis
-- **Time complexity:** $$O(max(m,n))$$. m and n represents the length of l1 and l2 respectively.
-- **Space complexity:** $$O(max(m,n))$$. The length of the new list is at most $$max(m,n)+1$$.
+
+* **Time complexity:** $$O(max(m,n))$$. m and n represents the length of l1 and l2 respectively.
+* **Space complexity:** $$O(max(m,n))$$. The length of the new list is at most $$max(m,n)+1$$.
+
