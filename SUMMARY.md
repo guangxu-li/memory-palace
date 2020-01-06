@@ -8,6 +8,8 @@
   * [\*Introduction](cs/machine-learning/ml-intro.md)
   * [1. Regression](cs/machine-learning/regression.md)
   * [References](cs/machine-learning/references.md)
+* [Leetcode](cs/leetcode/README.md)
+  * [1. Two Sum](cs/leetcode/1.-two-sum.md)
 
 ## Cognitive Science
 
