@@ -40,6 +40,9 @@ Just like normaly adding two numbers, we begin from least-significant digits. If
 	4. next one input listnode.
 3. If carry = 1, append a new node with digit 1.
 ```
+{% hint style="danger" %}
+Step 3 is neccessary. Without it, the program can't work for 456 + 654.
+{% endhint %}
 ```java
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode dummyHead = new ListNode(0);
