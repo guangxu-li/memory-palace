@@ -13,5 +13,3 @@
 
 ## Cognitive Science
 
-* [Untitled](cognitive-science/untitled.md)
-
