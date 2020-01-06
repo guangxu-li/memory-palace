@@ -27,11 +27,11 @@ The brute force approach is simple. Loop through each element $$x$$ and find if 
 
 #### Complexity Analysis
 
-* **Time complexity:** $$O(n^2)$$ . For each element, we try to find its complement by looping through the rest of array which takes $$O(n)$$time. Therefore, the time complexity is $$O(n^2)$$.
+* **Time complexity:** $$O(n^2)$$. For each element, we try to find its complement by looping through the rest of array which takes $$O(n)$$time. Therefore, the time complexity is $$O(n^2)$$.
 * **Space complexity:** $$O(1)$$.
 
 ```java
-class solution {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -55,11 +55,11 @@ A hash table is built to reduce look up time from $$O(n)$$ to $$O(1)$$ by tradin
 
 #### Complexity Analysis
 
-* **Time complexity:** $$O(n)$$ . For each element, we search its complement in the table which takes $$O(1)$$time.
+* **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
 * **Space complexity:** $$O(n)$$. The hash table stores at most n elements.
 
 ```java
-class solution {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         
