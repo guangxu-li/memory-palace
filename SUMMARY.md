@@ -1,6 +1,6 @@
 # Table of contents
 
-* [MEMORY PALACE](README.md)
+* [\*MEMORY PALACE](README.md)
 
 ## COMPUTER SCIENCE <a id="cs"></a>
 
@@ -9,7 +9,7 @@
   * [1. Regression](cs/machine-learning/regression.md)
   * [References](cs/machine-learning/references.md)
 * [Leetcode](cs/leetcode/README.md)
-  * [1. Two Sum](cs/leetcode/1.-two-sum.md)
+  * [\*1. Two Sum](cs/leetcode/two-sum.md)
 
 ## Cognitive Science
 
