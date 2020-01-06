@@ -28,7 +28,7 @@ Explanation: 342 + 465 = 807.
 
 #### Algorithm
 
-Just like normally adding two numbers, we begin from least-significant digits. If the sum of two numbers is larger than 10, then we need to add the carry to the next digit.
+Just like usually adding two numbers, we begin from least-significant digits. If the sum of two numbers is larger than 10, then we need to add the carry to the next digit.
 
 **Pseudocode**
 
