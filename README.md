@@ -1,16 +1,8 @@
 ---
-description: >-
-  This space aims to collect all the knowledge learned. It's whole-life
-  engineering.
+description: '//TODO: Add a quote'
 ---
 
-# MEMORY PALACE
+# \*MEMORY PALACE
 
-## COMPUTER SCIENCE
-
-{% page-ref page="cs/machine-learning/" %}
-
-{% page-ref page="cs/leetcode/" %}
-
-
+This space aims to collect all knowledge learned to build a personal knowledge base. It's whole-life engineering.
 
