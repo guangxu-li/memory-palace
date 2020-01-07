@@ -82,3 +82,11 @@ public class Solution {
 
 * **Space complexity:** $$O(min(n,m))$$. We need $$O(k)$$ space for checking a substring has no duplicate characters. The maximum value of k depends on the size of string $$n$$ and the size of the charset/alphabet $$m$$.
 
+### Approach 2: Sliding Window
+
+#### Algorithm
+
+It is unnecessary to see if a substring has duplicate characters repeatedly. If a substring $$s_{ij}$$ from index $$i$$ to $$j-1$$ is already checked, we only need to check if $s[j]$$ is already in the substring $$s_{ij}$$.
+{% hint style="info" %}
+We can scan the substring which costs $$O(n^2)$$ algorithm. A better way is using HashSet as a sliding windows which costs $$O(1)$$.
+{% endhint %}
