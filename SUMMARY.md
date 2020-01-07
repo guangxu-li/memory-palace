@@ -1,6 +1,6 @@
 # Table of contents
 
-* [\*MEMORY PALACE](README.md)
+* [MEMORY PALACE](README.md)
 
 ## COMPUTER SCIENCE <a id="cs"></a>
 
