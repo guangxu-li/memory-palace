@@ -11,5 +11,5 @@
 * [Leetcode](cs/leetcode/README.md)
   * [\*1. Two Sum](cs/leetcode/two-sum.md)
   * [2. Add Two Numbers](cs/leetcode/add-two-numbers.md)
-  * [3. Longest Substring Without Repeating Characters](cs/leetcode/longest-substring-without-repeating-characters.md)
+  * [\* 3. Longest Substring Without Repeating Characters](cs/leetcode/longest-substring-without-repeating-characters.md)
 
