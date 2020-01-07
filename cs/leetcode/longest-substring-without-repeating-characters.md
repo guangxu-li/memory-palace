@@ -69,3 +69,10 @@ public class Solution {
 }
 ```
 
+#### Complexity Analysis
+- **Time complexity:** $$O(n^3)$$.
+  To verify if characters with inex range $$[i,j)$$ are all unique, it costs $$O(j-i)$$ time.
+  For a given `i`, the sum of time costed by each $$j\in [i+1,n]$$ is $$\sum_(i+1)^n O(j-i)$$.
+  Thus, the sum of all the time consumption is $$O(\sum_(i=0)^n-1 (\sum_(j=i+j)^n(j-i)))=O(\sum_(i=0)^n-1 \frac((1+n-i)(n-i))2)$$.
+- **Space complexity:** $$O(min(n,m))$$. We need $$O(k)$$ space for checking a substring has no duplicate characters. The maximum value of k depends on the size of string $$n$$ and the size of the charset/alphabet $$m$$.
+
