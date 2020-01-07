@@ -21,14 +21,9 @@ return [0, 1].
 
 ## Solution
 
-### Brute Force
+### Approach 1: Brute Force
 
 The brute force approach is simple. Loop through each element $$x$$ and find if there is another value that equals to $$target - x$$.
-
-#### Complexity Analysis
-
-* **Time complexity:** $$O(n^2)$$. For each element, we try to find its complement by looping through the rest of array which takes $$O(n)$$time. Therefore, the time complexity is $$O(n^2)$$.
-* **Space complexity:** $$O(1)$$.
 
 ```java
 class Solution {
@@ -45,18 +40,18 @@ class Solution {
 }
 ```
 
-### One-pass Hash Table
+#### Complexity Analysis
+
+* **Time complexity:** $$O(n^2)$$. For each element, we try to find its complement by looping through the rest of array which takes $$O(n)$$time. Therefore, the time complexity is $$O(n^2)$$.
+* **Space complexity:** $$O(1)$$.
+
+### Approach 2: One-pass Hash Table
 
 The best way to maintain a mapping of each element in the array to its index is a hash table. To improve the performance, change the array to a hash table.
 
 {% hint style="success" %}
 A hash table is built to reduce look up time from $$O(n)$$ to $$O(1)$$ by trading space for speed.
 {% endhint %}
-
-#### Complexity Analysis
-
-* **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
-* **Space complexity:** $$O(n)$$. The hash table stores at most n elements.
 
 ```java
 class Solution {
@@ -77,4 +72,9 @@ class Solution {
     }
 }
 ```
+
+#### Complexity Analysis
+
+* **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
+* **Space complexity:** $$O(n)$$. The hash table stores at most n elements.
 

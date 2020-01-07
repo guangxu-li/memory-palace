@@ -20,7 +20,7 @@ Explanation: 342 + 465 = 807.
 
 ## Solution
 
-### Elementary Math
+### Approach 1: Elementary Math
 
 #### Intuition
 
