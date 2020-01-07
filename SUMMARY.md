@@ -2,14 +2,14 @@
 
 * [MEMORY PALACE](README.md)
 
-## COMPUTER SCIENCE <a id="cs"></a>
+## COMPUTER SCIENCE
 
-* [Machine Learning](cs/machine-learning/README.md)
-  * [\*Introduction](cs/machine-learning/ml-intro.md)
-  * [1. Regression](cs/machine-learning/regression.md)
-  * [References](cs/machine-learning/references.md)
-* [Leetcode](cs/leetcode/README.md)
-  * [\*1. Two Sum](cs/leetcode/two-sum.md)
-  * [2. Add Two Numbers](cs/leetcode/add-two-numbers.md)
-  * [\* 3. Longest Substring Without Repeating Characters](cs/leetcode/longest-substring-without-repeating-characters.md)
+* [Machine Learning](computer-science/machine-learning/README.md)
+  * [\*Introduction](computer-science/machine-learning/ml-intro.md)
+  * [1. Regression](computer-science/machine-learning/regression.md)
+  * [References](computer-science/machine-learning/references.md)
+* [Leetcode](computer-science/leetcode/README.md)
+  * [\*1. Two Sum](computer-science/leetcode/two-sum.md)
+  * [2. Add Two Numbers](computer-science/leetcode/add-two-numbers.md)
+  * [\* 3. Longest Substring Without Repeating Characters](computer-science/leetcode/longest-substring-without-repeating-characters.md)
 
