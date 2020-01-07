@@ -41,3 +41,11 @@ Explanation: The answer is "wke", with the length of 3.
 
 Check all the substring one by one to see if it has no duplicate character.
 
+#### Algorithm
+
+1. Enumerate all substrings of a given string.
+2. If a substring has no duplicate characters, then update the answer.
+
+```java
+
+```
