@@ -13,7 +13,7 @@ Given a string, find the length of the **longest substring** without repeating c
 ```text
 Input: "abcabcbb"
 Output: 3 
-Explanation: The answer is "abc", with the length of 3.
+Explanation: The answer is "abc", with the length of 3. 
 ```
 
 **Example 2:**
@@ -47,25 +47,5 @@ Check all the substring one by one to see if it has no duplicate character.
 2. If a substring has no duplicate characters, then update the answer.
 
 ```java
-public class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        int n = s.length();
-        int ans = 0;
-        for (int i = 0; i < n; i++)
-            for (int j = i + 1; j <= n; j++)
-                if (allUnique(s, i, j)) ans = Math.max(ans, j - i);
-        return ans;
-    }
 
-    public boolean allUnique(String s, int start, int end) {
-        Set<Character> set = new HashSet<>();
-        for (int i = start; i < end; i++) {
-            Character ch = s.charAt(i);
-            if (set.contains(ch)) return false;
-            set.add(ch);
-        }
-        return true;
-    }
-}
 ```
-

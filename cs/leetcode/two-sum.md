@@ -26,7 +26,7 @@ return [0, 1].
 The brute force approach is simple. Loop through each element $$x$$ and find if there is another value that equals to $$target - x$$.
 
 ```java
-class Solution {
+public class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -54,7 +54,7 @@ A hash table is built to reduce look up time from $$O(n)$$ to $$O(1)$$ by tradin
 {% endhint %}
 
 ```java
-class Solution {
+public class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
