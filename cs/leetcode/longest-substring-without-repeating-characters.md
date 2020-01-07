@@ -86,7 +86,111 @@ public class Solution {
 
 #### Algorithm
 
-It is unnecessary to see if a substring has duplicate characters repeatedly. If a substring $$s_{ij}$$ from index $$i$$ to $$j-1$$ is already checked, we only need to check if $s[j]$$ is already in the substring $$s_{ij}$$.
+It is unnecessary to see if a substring has duplicate characters repeatedly. If a substring $$s_{ij}$$ from index $$i$$ to $$j-1$$ is already checked, we only need to check if $$s[j]$$ is already in the substring $$s_{ij}$$.
+
 {% hint style="info" %}
-We can scan the substring which costs $$O(n^2)$$ algorithm. A better way is using HashSet as a sliding windows which costs $$O(1)$$.
+**Tips:**  We can scan the substring which costs $$O(n^2)$$ algorithm, but a better way is using HashSet as a sliding windows which costs $$O(1)$$.
 {% endhint %}
+
+{% hint style="success" %}
+A window is a range of elements in the array/string which usually defined by the start and end indices, i.e. $$[i,j)$$ \(left-closed, right-open\).
+
+A sliding window is a windows "slides" its two boundaries to the certain direction.
+{% endhint %}
+
+1. Use HashSet to store all characters in current window $$[i,j)$$ \($$j=i$$ initially\).
+2. Slide the index $$j$$ to the right until $$s[j]$$ is already in the HashSet.
+3. Repeat **Step 1** and **Step 2** for all i.
+
+```java
+public class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length();
+        Set<Character> set = new HashSet<>();
+        int ans = 0, i = 0, j = 0;
+        while (i < n && j < n) {
+            // try to extend the range [i, j]
+            if (!set.contains(s.charAt(j))){
+                set.add(s.charAt(j++));
+                ans = Math.max(ans, j - i);
+            }
+            else {
+                set.remove(s.charAt(i++));
+            }
+        }
+        return ans;
+    }
+}
+```
+
+{% hint style="warning" %}
+**Note:** `set.remove(s.charAt(i++));` will run multiple times until `s.charAt(i++)` being removed, which can be optimized.
+{% endhint %}
+
+#### Complexity Analysis
+
+* **Time complexity:** $$O(2n) = O(n)$$. In the worst case each character will be visited twice by $$i$$ and $$j$$.
+* **Space complexity:** $$O(min(m, n))$$. Same as the previous approach.
+
+### Aproach 3: Sliding Window Optimized
+
+We could define a mapping of the characters to its index and skip the characters immediately when we found a repeated character.
+
+{% hint style="info" %}
+**i.e.:** If $$s[j]$$ have a duplicate in the range $$[i,j)$$ with index $$j'$$, we can skip all the elements in the range $$[i, j']$$ and let $$i$$ to be $$j'+1$$ directly.
+{% endhint %}
+
+#### Java \(Using HashMap\)
+
+```java
+public class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length(), ans = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; j++) {
+            if (map.containsKey(s.charAt(j))) {
+                i = Math.max(map.get(s.charAt(j)), i);
+            }
+            ans = Math.max(ans, j - i + 1);
+            map.put(s.charAt(j), j + 1);
+        }
+        return ans;
+    }
+}
+```
+
+#### Java \(Assuming ASCII 128\)
+
+If we know that the charset is rather small, we can replace the `Map` with an Integer array as direct access table.
+
+{% hint style="info" %}
+**Commonly used tables:**
+
+* `int[26]`: Letters 'a' -'z' or 'A' - 'Z'
+* `int[128]`: ASCII
+* `int[256]`: Extended ASCII
+{% endhint %}
+
+```java
+public class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length(), ans = 0;
+        int[] index = new int[128];
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; j++) {
+            i = Math.max(index[s.charAt(j)], i);
+            ans = Math.max(ans, j - i + 1);
+            index[s.charAt(j)] = j + 1;
+        }
+        return ans;
+    }
+}
+```
+
+#### Complexity Analysis
+
+* **Time complexity:** $$O(n)$$. Index $$j$$ will iterate $$n$$ times.
+* **Space complexity \(HashMap\):** $$O(min(m,n))$$. Same as the previous approach.
+* **Space complexity \(Table\):** $$O(m)$$. $$m$$ is the size of the charset.
+

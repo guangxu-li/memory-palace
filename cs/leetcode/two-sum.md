@@ -45,13 +45,36 @@ public class Solution {
 * **Time complexity:** $$O(n^2)$$. For each element, we try to find its complement by looping through the rest of array which takes $$O(n)$$time. Therefore, the time complexity is $$O(n^2)$$.
 * **Space complexity:** $$O(1)$$.
 
-### Approach 2: One-pass Hash Table
+### Approach 2: Two-pass Hash Table
 
 The best way to maintain a mapping of each element in the array to its index is a hash table. To improve the performance, change the array to a hash table.
 
 {% hint style="success" %}
 A hash table is built to reduce look up time from $$O(n)$$ to $$O(1)$$ by trading space for speed.
 {% endhint %}
+
+```java
+public int[] twoSum(int[] nums, int target) {
+    Map<Integer, Integer> map = new HashMap<>();
+    for (int i = 0; i < nums.length; i++) {
+        map.put(nums[i], i);
+    }
+    for (int i = 0; i < nums.length; i++) {
+        int complement = target - nums[i];
+        if (map.containsKey(complement) && map.get(complement) != i) {
+            return new int[] { i, map.get(complement) };
+        }
+    }
+    throw new IllegalArgumentException("No two sum solution");
+}
+```
+
+#### Complexity Analysis
+
+* **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
+* **Space complexity:** $$O(n)$$. The hash table stores n elements.
+
+### Approach 3: One-pass Hash Table
 
 ```java
 public class Solution {
