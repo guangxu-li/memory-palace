@@ -24,7 +24,7 @@ Explanation: 342 + 465 = 807.
 
 #### Intuition
 
-![Figure 1. Visualization of the addition of two numbers: 342 + 465 = 807342+465=807.](../../.gitbook/assets/2_add_two_numbers.svg)
+![Figure 1. Visualization of the addition of two numbers: 342 + 465 = 807.](../../.gitbook/assets/2_add_two_numbers.svg)
 
 #### Algorithm
 

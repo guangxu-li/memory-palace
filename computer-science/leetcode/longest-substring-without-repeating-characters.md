@@ -1,7 +1,7 @@
 ---
 description: >-
   https://leetcode.com/problems/longest-substring-without-repeating-characters/
-  //TODO: add a page link to hash table.
+  //TODO: add a page link to the hash table.
 ---
 
 # \* 3. Longest Substring Without Repeating Characters
@@ -75,12 +75,12 @@ public class Solution {
 
 * **Time complexity:** $$O(n^3)$$.
 
-  1. To verify if characters with inex range $$[i,j)$$ are all unique, it costs $$O(j-i)$$ time.
+  1. To verify if characters with index range $$[i,j)$$ are all unique, it costs $$O(j-i)$$ time.
   2. For a given `i`, the sum of time costed by each $$j\in [i+1,n]$$ is $$\sum_{i+1}^{n}O(j-i)$$.
 
-  Thus, the sum of all the time consumption is $$O(\sum_{i=0}^{n-1}(\sum_{j=i+j}^{n}(j-i)))=O(\sum_{i=0}^{n-1}\frac{(1+n-i)(n-i)}{2})$$.
+  Thus, the sum of all the time consumption is $$O(\sum_{i=0}^{n-1}(\sum_{j=i+1}^{n}(j-i)))=O(\sum_{i=0}^{n-1}\frac{(1+n-i)(n-i)}{2})$$.
 
-* **Space complexity:** $$O(min(n,m))$$. We need $$O(k)$$ space for checking a substring that has no duplicate characters. The maximum value of k depends on the size of the string $$n$$ and the size of the charset/alphabet $$m$$.
+* **Space complexity:** $$O(min(n,m))$$. We need $$O(k)$$ space for checking a substring that has no duplicate characters, where $$k$$ is the size of the `Set`. The size of the Set is upper bounded by the size of the string $$n$$ and the size of the charset/alphabet $$m$$.
 
 ### Approach 2: Sliding Window
 
@@ -89,7 +89,7 @@ public class Solution {
 It is unnecessary to see if a substring has duplicate characters repeatedly. If a substring $$s_{ij}$$ from index $$i$$ to $$j-1$$ is already checked, we only need to check if $$s[j]$$ is already in the substring $$s_{ij}$$.
 
 {% hint style="info" %}
-**Tips:**  We can scan the substring, which costs $$O(n^2)$$ algorithm, but a better way is using HashSet as a sliding window, which costs $$O(1)$$.
+**Tips:**  We can scan the substring, which leads to an $$O(n^2)$$ algorithm, but a better way is using HashSet as a sliding window, which costs $$O(1)$$.
 {% endhint %}
 
 {% hint style="success" %}
