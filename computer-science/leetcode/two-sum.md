@@ -1,10 +1,10 @@
 ---
-description: Easy
+description: 'Easy https://leetcode.com/problems/two-sum/ //TODO: Add Hash Table link'
 ---
 
-# 1. Two Sum
+# \*1. Two Sum
 
-## [Description](https://leetcode.com/problems/two-sum/)
+## Description
 
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
@@ -21,8 +21,6 @@ return [0, 1].
 
 ## Solution
 
-{% tabs %}
-{% tab title="Approach 1: Brute Force" %}
 ### Approach 1: Brute Force
 
 The brute force approach is simple. Loop through each element $$x$$ and find if there is another value that equals to $$target - x$$.
@@ -46,9 +44,7 @@ public class Solution {
 
 * **Time complexity:** $$O(n^2)$$. For each element, we try to find its complement by looping through the rest of array which takes $$O(n)$$time. Therefore, the time complexity is $$O(n^2)$$.
 * **Space complexity:** $$O(1)$$.
-{% endtab %}
 
-{% tab title="Approach 2: Two-pass Hash Table" %}
 ### Approach 2: Two-pass Hash Table
 
 The best way to maintain a mapping of each element in the array to its index is a hash table. To improve the performance, change the array to a hash table.
@@ -77,9 +73,7 @@ public int[] twoSum(int[] nums, int target) {
 
 * **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
 * **Space complexity:** $$O(n)$$. The hash table stores n elements.
-{% endtab %}
 
-{% tab title="Approach 3: One-pass Hash Table" %}
 ### Approach 3: One-pass Hash Table
 
 ```java
@@ -106,20 +100,4 @@ public class Solution {
 
 * **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
 * **Space complexity:** $$O(n)$$. The hash table stores at most n elements.
-{% endtab %}
-{% endtabs %}
-
-## Related Topics
-
-[_Array_](https://leetcode.com/tag/Array/)_,_ [_Hash Table_](https://leetcode.com/tag/hash-table/)\_\_
-
-| Similar Questions | Difficulty |
-| :--- | :--- |
-| [3Sum](3sum.md) | Medium |
-| [4Sum](4sum.md) | Medium |
-| [Two Sum II - Input array is sorted](two-sum-ii-input-array-is-sorted.md) | Easy |
-| [Two Sum III - Data structure design](two-sum-iii-data-structure-design.md) | Easy |
-| [Subarray Sum Equals K](subarray-sum-equals-k.md) | Medium |
-| [Two Sum IV - Input is a BST](two-sum-iv-input-is-a-bst.md) | Easy |
-| [Two Sum Less Than K](two-sum-less-than-k.md) | Easy |
 
