@@ -1,10 +1,10 @@
 ---
-description: 'Easy https://leetcode.com/problems/two-sum/ //TODO: Add Hash Table link'
+description: 'Easy //TODO: Add Hash Table link'
 ---
 
 # \*1. Two Sum
 
-## Description
+## [Description](https://leetcode.com/problems/two-sum/)
 
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
