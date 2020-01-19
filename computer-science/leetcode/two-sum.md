@@ -1,8 +1,8 @@
 ---
-description: 'Easy //TODO: Add Hash Table link'
+description: Easy
 ---
 
-# \*1. Two Sum
+# 1. Two Sum
 
 ## [Description](https://leetcode.com/problems/two-sum/)
 
@@ -107,11 +107,11 @@ public class Solution {
 
 | Similar Questions | Difficulty |
 | :--- | :--- |
-| [3Sum](https://wiki.guangxuli.com/computer-science/leetcode/two-sum) | Medium |
-| [4Sum](https://leetcode.com/problems/4sum/) | Medium |
-| [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy |
-| [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | Easy |
-| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium |
-| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | Easy |
-| [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) | Easy |
+| [3Sum](3sum.md) | Medium |
+| [4Sum](4sum.md) | Medium |
+| [Two Sum II - Input array is sorted](two-sum-ii-input-array-is-sorted.md) | Easy |
+| [Two Sum III - Data structure design](two-sum-iii-data-structure-design.md) | Easy |
+| [Subarray Sum Equals K](subarray-sum-equals-k.md) | Medium |
+| [Two Sum IV - Input is a BST](two-sum-iv-input-is-a-bst.md) | Easy |
+| [Two Sum Less Than K](two-sum-less-than-k.md) | Easy |
 
