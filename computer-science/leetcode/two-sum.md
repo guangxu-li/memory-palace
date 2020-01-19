@@ -107,7 +107,7 @@ public class Solution {
 
 | Similar Questions | Difficulty |
 | :--- | :--- |
-| [3Sum](https://leetcode.com/problems/3sum/) | Medium |
+| [3Sum](https://wiki.guangxuli.com/computer-science/leetcode/two-sum) | Medium |
 | [4Sum](https://leetcode.com/problems/4sum/) | Medium |
 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy |
 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | Easy |
