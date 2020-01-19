@@ -12,4 +12,5 @@
   * [\*1. Two Sum](computer-science/leetcode/two-sum.md)
   * [2. Add Two Numbers](computer-science/leetcode/add-two-numbers.md)
   * [\* 3. Longest Substring Without Repeating Characters](computer-science/leetcode/longest-substring-without-repeating-characters.md)
+  * [4. Median of Two Sorted Arrays](computer-science/leetcode/4.-median-of-two-sorted-arrays.md)
 

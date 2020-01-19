@@ -101,3 +101,17 @@ public class Solution {
 * **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
 * **Space complexity:** $$O(n)$$. The hash table stores at most n elements.
 
+## Related Topics
+
+[_Array_](https://leetcode.com/tag/Array/)_,_ [_Hash Table_](https://leetcode.com/tag/hash-table/)\_\_
+
+| Similar Questions | Difficulty |
+| :--- | :--- |
+| [3Sum](https://leetcode.com/problems/3sum/) | Medium |
+| [4Sum](https://leetcode.com/problems/4sum/) | Medium |
+| [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy |
+| [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | Easy |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium |
+| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | Easy |
+| [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) | Easy |
+

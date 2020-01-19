@@ -1,10 +1,13 @@
 ---
-description: 'Medium //TODO: add a page link to the hash table.'
+description: >-
+  Medium
+  https://leetcode.com/problems/longest-substring-without-repeating-characters/
+  //TODO: add a page link to the hash table.
 ---
 
 # \* 3. Longest Substring Without Repeating Characters
 
-## [Description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+## Description
 
 Given a string, find the length of the **longest substring** without repeating characters.
 
