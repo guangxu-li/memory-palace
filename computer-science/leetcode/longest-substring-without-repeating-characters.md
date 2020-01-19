@@ -1,10 +1,13 @@
 ---
-description: Medium
+description: >-
+  Medium
+  https://leetcode.com/problems/longest-substring-without-repeating-characters/
+  //TODO: add a page link to the hash table.
 ---
 
-# 3. Longest Substring Without Repeating Characters
+# \* 3. Longest Substring Without Repeating Characters
 
-## [Description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+## Description
 
 Given a string, find the length of the **longest substring** without repeating characters.
 
@@ -191,14 +194,4 @@ public class Solution {
 * **Time complexity:** $$O(n)$$. Index $$j$$ iterates $$n$$ times.
 * **Space complexity \(HashMap\):** $$O(min(m,n))$$. Same as the previous approach.
 * **Space complexity \(Table\):** $$O(m)$$. $$m$$ is the size of the charset.
-
-## Related Topics
-
-[_Hash Table_](https://leetcode.com/tag/hash-table/)_,_ [_Sliding Window_](https://leetcode.com/tag/sliding-window/)_,_ [_String_](https://leetcode.com/tag/string/)_,_ [_Two Pointers_](https://leetcode.com/tag/two-pointers/)\_\_
-
-| Similar Questions | Difficulty |
-| :--- | :--- |
-| [Longest Substring with At Most Two Distinct Characters](longest-substring-with-at-most-two-distinct-characters.md) | Medium |
-| [Longest Substring with At Most K Distinct Characters](longest-substring-with-at-most-k-distinct-characters.md) | Hard |
-| [Subarrays with K Different Integers](subarrays-with-k-different-integers.md) | Hard |
 

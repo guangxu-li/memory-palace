@@ -4,16 +4,6 @@ description: Thoughts of Leetcode problems. Solutions are based on Java.
 
 # Leetcode
 
-## Table of Contents
-
-{% page-ref page="two-sum.md" %}
-
-{% page-ref page="add-two-numbers.md" %}
-
-{% page-ref page="longest-substring-without-repeating-characters.md" %}
-
-{% page-ref page="median-of-two-sorted-arrays.md" %}
-
 ## Topics
 
 [_Array_](https://leetcode.com/tag/Array/)

@@ -1,10 +1,10 @@
 ---
-description: Medium
+description: 'Medium https://leetcode.com/problems/add-two-numbers/'
 ---
 
 # 2. Add Two Numbers
 
-## [Description](https://leetcode.com/problems/add-two-numbers/)
+## Description
 
 You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order** and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
@@ -74,17 +74,4 @@ public class Solution {
 
 * **Time complexity:** $$O(max(m,n))$$. m and n represents the length of l1 and l2 respectively.
 * **Space complexity:** $$O(max(m,n))$$. The length of the new list is at most $$max(m,n)+1$$.
-
-## Related Topics
-
-[_Linked List_](https://leetcode.com/tag/linked-list/)_,_ [_Math_](https://leetcode.com/tag/math/)\_\_
-
-| Similar Questions | Difficulty |
-| :--- | :--- |
-| [Multiply Strings](multiply-strings.md) | Medium |
-| [Add Binary](add-binary.md) | Easy |
-| [Sum of Two Integers](sum-of-two-integers.md) | Easy |
-| [Add Strings](add-strings.md) | Easy |
-| [Add Two Numbers II](add-two-numbers-ii.md) | Medium |
-| [Add to Array-Form of Integer](add-to-array-form-of-integer.md) | Easy |
 
