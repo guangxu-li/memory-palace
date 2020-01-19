@@ -1,5 +1,5 @@
 ---
-description: 'https://leetcode.com/problems/add-two-numbers/'
+description: 'Medium https://leetcode.com/problems/add-two-numbers/'
 ---
 
 # 2. Add Two Numbers

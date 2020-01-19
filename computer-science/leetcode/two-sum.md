@@ -1,5 +1,5 @@
 ---
-description: 'https://leetcode.com/problems/two-sum/ Easy //TODO: Add Hash Table link'
+description: 'Easy https://leetcode.com/problems/two-sum/ //TODO: Add Hash Table link'
 ---
 
 # \*1. Two Sum
