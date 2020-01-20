@@ -123,13 +123,6 @@ class Solution {
 * **Time complexity:** $$O(log(min(m, n)))$$. The search range is $$[0, min(m, n)]$$, After every loop, half of $$min(m, n)$$ will be reduced. So we only need $$log(min(m, n))$$loops.
 * **Space complexity:** $$O(1)$$.
 
-### Approach 2: 
-
-#### Complexity Analysis
-
-* **Time complexity:** 
-* **Space complexity:** 
-
 ## Related Topics
 
 [_Array_](https://leetcode.com/tag/Array/)_,_ [_Binary Search_](https://leetcode.com/tag/binary-search/)_,_ [_Divide and Conquer_](https://leetcode.com/tag/divide-and-conquer/)\_\_
