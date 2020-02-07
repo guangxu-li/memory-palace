@@ -4,6 +4,19 @@
 
 ## COMPUTER SCIENCE
 
+* [Algorithms](computer-science/algorithms/README.md)
+  * [I Foundations](computer-science/algorithms/i-foundations/README.md)
+    * [1 The Role of Algorithms in Computing](computer-science/algorithms/i-foundations/1-the-role-of-algorithms-in-computing.md)
+    * [2 Getting Started](computer-science/algorithms/i-foundations/2-getting-started.md)
+    * [3 Growth of Functions](computer-science/algorithms/i-foundations/3-growth-of-functions.md)
+    * [4 Divide-and-Conquer](computer-science/algorithms/i-foundations/4-divide-and-conquer.md)
+    * [5 Probabilistic Analysis and Randomized Algorithms](computer-science/algorithms/i-foundations/5-probabilistic-analysis-and-randomized-algorithms.md)
+  * [II Sorting and Order Statistics](computer-science/algorithms/ii-sorting-and-order-statistics.md)
+  * [III Data Structures](computer-science/algorithms/iii-data-structures.md)
+  * [IV Advanced Design and Analysis Techniques](computer-science/algorithms/iv-advanced-design-and-analysis-techniques.md)
+  * [V Advanced Data Structures](computer-science/algorithms/v-advanced-data-structures.md)
+  * [VI Graph Algorithms](computer-science/algorithms/vi-graph-algorithms.md)
+  * [VII Selected Topics](computer-science/algorithms/vii-selected-topics.md)
 * [Machine Learning](computer-science/machine-learning/README.md)
   * [\*Introduction](computer-science/machine-learning/ml-intro.md)
   * [1. Regression](computer-science/machine-learning/regression.md)
