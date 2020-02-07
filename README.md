@@ -8,6 +8,8 @@ description: >-
 
 ## COMPUTER SCIENCE
 
+{% page-ref page="computer-science/algorithms/" %}
+
 {% page-ref page="computer-science/machine-learning/" %}
 
 {% page-ref page="computer-science/leetcode/" %}
