@@ -22,3 +22,8 @@ An algorithm is thus **a sequence of computational steps** that **transform the 
 **Ouput:** A permutation \(reordering\) $$<a_{1}^{'},a_{2}^{'},...,a_{3}^{'}>$$ of the input sequence such that $$<a_{1}^{'}\leq a_{2}^{'}\leq \dots \leq a_{3}^{'}>$$.
 {% endhint %}
 
+An algorithm is said to be _**correct**_ if, for **every** input instance, it halts with the correct output. We say that a correct algorithm _**solves**_ the given computational problem.
+
+{% hint style="danger" %}
+Incorrect algorithms can sometimes be useful, if we can control their error rate.
+{% endhint %}
