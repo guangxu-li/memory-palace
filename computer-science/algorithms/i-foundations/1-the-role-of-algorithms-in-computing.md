@@ -42,3 +42,4 @@ _**NP-complete problems:**_
 2. If an efficient algorithm exists for any one off them, then efficient algorithms exist for all of them.
 3. Several NP-complete problems are similar, but not identical, to problems for which we do known of efficient algorithms.
 
+## 1.2 Algorithms as a technology
