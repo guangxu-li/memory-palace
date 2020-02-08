@@ -24,6 +24,18 @@ An algorithm is thus **a sequence of computational steps** that **transform the 
 
 An algorithm is said to be _**correct**_ if, for **every** input instance, it halts with the correct output. We say that a correct algorithm _**solves**_ the given computational problem.
 
-{% hint style="danger" %}
-Incorrect algorithms can sometimes be useful, if we can control their error rate.
+{% hint style="warning" %}
+**Note:** Incorrect algorithms can **sometimes** be useful, if we can control their error rate.
 {% endhint %}
+
+_**What kinds of problems are solved by algorithms?**_
+- The Human Genome Project
+- The Internet: finding good routes on which the data will travel.
+- Electronic commerce.
+
+### Hard problems
+
+_**NP-complete problems:**_
+1. No one knows whether or not efficient algorithms exist for NP-complete problems.
+2. If an efficient algorithm exists for any one off them, then efficient algorithms exist for all of them.
+3. Several NP-complete problems are similar, but not identical, to problems for which we do known of efficient algorithms.
