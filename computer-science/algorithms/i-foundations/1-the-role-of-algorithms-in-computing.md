@@ -36,10 +36,11 @@ _**What kinds of problems are solved by algorithms?**_
 
 ### Hard problems
 
-_**NP-complete problems:**_ 
+_**NP-complete problems:**_
 
 1. No one knows whether or not efficient algorithms exist for NP-complete problems.
 2. If an efficient algorithm exists for any one off them, then efficient algorithms exist for all of them.
 3. Several NP-complete problems are similar, but not identical, to problems for which we do known of efficient algorithms.
 
 ## 1.2 Algorithms as a technology
+

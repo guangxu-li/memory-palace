@@ -1,10 +1,10 @@
 ---
-description: 'Easy https://leetcode.com/problems/two-sum/ //TODO: Add Hash Table link'
+description: Easy
 ---
 
-# \*1. Two Sum
+# 1. Two Sum
 
-## Description
+## [Description](https://leetcode.com/problems/two-sum/)
 
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
@@ -100,4 +100,18 @@ public class Solution {
 
 * **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
 * **Space complexity:** $$O(n)$$. The hash table stores at most n elements.
+
+## Related Topics
+
+[_Array_](https://leetcode.com/tag/Array/)_,_ [_Hash Table_](https://leetcode.com/tag/hash-table/)\_\_
+
+| Similar Questions | Difficulty |
+| :--- | :--- |
+| [3Sum](3sum.md) | Medium |
+| [4Sum](4sum.md) | Medium |
+| [Two Sum II - Input array is sorted](two-sum-ii-input-array-is-sorted.md) | Easy |
+| [Two Sum III - Data structure design](two-sum-iii-data-structure-design.md) | Easy |
+| [Subarray Sum Equals K](subarray-sum-equals-k.md) | Medium |
+| [Two Sum IV - Input is a BST](two-sum-iv-input-is-a-bst.md) | Easy |
+| [Two Sum Less Than K](two-sum-less-than-k.md) | Easy |
 
