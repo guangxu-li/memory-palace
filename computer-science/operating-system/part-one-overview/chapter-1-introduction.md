@@ -24,7 +24,7 @@ From the computer's points of view, the operating system is a **resource allocat
 
 ### 1.1.3 Defining Operating Systems
 
-In general, we have no completely adequate definition of an operating system. 
+In general, we have no completely adequate definition of an operating system.
 
 In addition, we have no universally accepted definition of what is part of the operating system.
 
@@ -58,7 +58,7 @@ Device controller informs CPU that it has finished its operation by causing an *
 
 #### 1.2.1.1 Overview
 
-![Figure 1.3  Interrupt timeline for a single program doing output.](../../../.gitbook/assets/os-figure-1.3.png)
+![Figure 1.3 Interrupt timeline for a single program doing output.](../../../.gitbook/assets/os-figure-1.3.png)
 
 Interrupt transers control to the interrupt service routine generally, through the **interrupt vector**, which contains the addresses of all the service routines.
 
@@ -84,8 +84,6 @@ A common way to solve this problem is to use **interrupt chaining**, in which ea
 When an interrupt is raised, the handlers on the corresponding list are called one by one, until one is found that can services the request.
 {% endhint %}
 
-
-
 _**Most CPUs have two interrupt request lines:**_
 
 1. **The nonmaskable interrupt**, which is reserved for events such as unrecoverable memory errors.
@@ -105,9 +103,9 @@ These thress features are provided by the **CPU** and the **interrupt-controller
 
 ### 1.2.2 Storage Structure
 
-The first program to run on ocmputer power-on is a **bootstrap program**, which then loads the operating system.  It typically stored in ROM or EPROM, generally known as **firmware**.
+The first program to run on ocmputer power-on is a **bootstrap program**, which then loads the operating system. It typically stored in ROM or EPROM, generally known as **firmware**.
 
-![Figure 1.6  Storage-device hierarchy.](../../../.gitbook/assets/os-figure-1.6.png)
+![Figure 1.6 Storage-device hierarchy.](../../../.gitbook/assets/os-figure-1.6.png)
 
 The top four levels of memory in the figure are constructed using **semiconductor memory**.
 
@@ -120,7 +118,7 @@ The form of interrupt-driven I/O described in [Section 1.2.1](chapter-1-introduc
 * Device controller transfers blocks of data from buffer storage directly to main memory without CPU intervention.
 * Only one interrupt is generated per block, rather than the one interrupt per byte.
 
-![Figure 1.7  How a modern computer system works.](../../../.gitbook/assets/os-figure-1.7.png)
+![Figure 1.7 How a modern computer system works.](../../../.gitbook/assets/os-figure-1.7.png)
 
 ## 1.3 Computer-System Architecture
 
@@ -134,7 +132,7 @@ Other specialized processors \(sidk controllers, GPUs, etc.\) don't run user app
 
 The most common multiprocessor systems use **symmetric multiprocessing \(SMP\)**, in which each peer CPU processor performs all tasks, including operating-system functions and user processes.
 
-![Figure 1.8  Symmetric multiprocessing architecture.](../../../.gitbook/assets/os-figure-1.8.png)
+![Figure 1.8 Symmetric multiprocessing architecture.](../../../.gitbook/assets/os-figure-1.8.png)
 
 The definition of _**multiprocessor**_ has evolved over time and now includes **multicore** systems, in which multiple computing cores reside on a single chip.
 
@@ -144,10 +142,10 @@ The definition of _**multiprocessor**_ has evolved over time and now includes **
 ![Figure 1.9. A dual-core design with two cores on the same chip.](../../../.gitbook/assets/os-figure-1.9.png)
 
 {% hint style="warning" %}
-A **level 2 \(L2\)** **cache** is local to the chip but is shared by the two processing cores. 
+A **level 2 \(L2\)** **cache** is local to the chip but is shared by the two processing cores.
 {% endhint %}
 
-![Figure 1.10  NUMA multiprocessing architecture.](../../../.gitbook/assets/os-figure-1.10.png)
+![Figure 1.10 NUMA multiprocessing architecture.](../../../.gitbook/assets/os-figure-1.10.png)
 
 In NUMA multiprocessing architecture, when a CPU access its local memory not only is it fast, but there is also no contention over the system interconnect. Thus, NUMA systems can scale more effectively as more processors are added.
 
@@ -176,7 +174,7 @@ Another form of interrupt is a **trap** \(or an **exception**\), which is a soft
 
 **Multiprogramming** increases CPU utilization, as well as keeping users satisfied, by organizing programs so that the CPU always has one to execute. In a multiprogrammed system, a program in execution is termed a **process**.
 
-![Figure 1.12  Memory layout for a multiprogramming system.](../../../.gitbook/assets/os-figure-1.12.png)
+![Figure 1.12 Memory layout for a multiprogramming system.](../../../.gitbook/assets/os-figure-1.12.png)
 
 In **multitasking** systems, the CPU executes multiple processes by switching among them, but the switches occur frequently, providing the user with a fast **response time**.
 
@@ -187,7 +185,7 @@ In **multitasking** systems, the CPU executes multiple processes by switching am
 * **User Mode \(mode bit 1\):** the computer system is executing on behalf of a user application.
 * **Kernel Mode \(mode bit 0\)**
 
-![Figure 1.13  Transition from user to kernel mode.](../../../.gitbook/assets/os-figure-1.13.png)
+![Figure 1.13 Transition from user to kernel mode.](../../../.gitbook/assets/os-figure-1.13.png)
 
 The hardware allows privileged instructions to be executed only in kernel mode.
 
@@ -227,4 +225,47 @@ Single-threaded process has **one** **program counter** specifying the next inst
 * Providing mechanisms for process communication
 
 ### 1.5.2 Memory Management
+
+**The operating system is responsible for the following activities in connection with memory management:**
+
+* Keeping track of which parts of memory are currently being used and which process is using them
+* Allocating and deallocating memory space as needed
+* Deciding which processes \(or parts of processes\) and data to move into and out of memory
+
+### 1.5.3 File-System Management
+
+**The operating system is responsible for the following activities in connection with file management:**
+
+* Creating and deleting files
+* Creating and deleting directories to organize files
+* Supporting primitives for manipulating files and directories
+* Mapping files onto mass storage
+* Backing up files on stable \(nonvolatile\) storage media
+
+### 1.5.4 Mass-Storage Management
+
+**The operating system is responsible for the following activities in connection with secondary storage management:**
+
+* Mounting and unmounting
+* Free-space management
+* Storage allocation
+* Disk scheduling
+* Partitioning
+* Protection
+
+### 1.5.5 Cache Management
+
+_**Migration of data "A" from Disk to Register**_
+
+![Figure 1.15  Migration of integer A from disk to register.](../../../.gitbook/assets/os-figure-1.15.png)
+
+### **1.5.6 I/O System Management**
+
+**The I/O subsystem consists of several components:**
+
+* A memory-management component that includes buffering, caching, and spooling
+* A general device-driver interface
+* Drivers for specific hardware devices
+
+
 
