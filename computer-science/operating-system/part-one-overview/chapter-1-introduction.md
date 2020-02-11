@@ -204,5 +204,9 @@ A **timer** can be set to interrupt the computer after a specified period.
 * A **variable timer** is generally implemeted by a fixed-rate clock and a counter.
 * **Fixed timer**: e.g. 1/60 seconds.
 
+## Resource Management
 
+### 1.5.1 Process Management
+
+A process needs certain resources—including **CPU time, memory, files, and I/O devices**—to accomplish its task.
 
