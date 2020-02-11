@@ -218,7 +218,6 @@ A program is a **passive** entity, whereas a process is an **active** entity.
 
 Single-threaded process has **one** **program counter** specifying the next instruction to execute, but a multithreaded process has **multiple** **program counters**, each pointing to the next instruction to execute for a given thread.
 
-{% hint style="success" %}
 **The operating system is responsible for the following activities in connection with process management:**
 
 * Creating and deleteing both user and system processes
@@ -226,9 +225,6 @@ Single-threaded process has **one** **program counter** specifying the next inst
 * Suspending and resuming processes
 * Providing mechanisms for process synchronization
 * Providing mechanisms for process communication
-{% endhint %}
 
 ### 1.5.2 Memory Management
-
-
 
