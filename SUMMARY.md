@@ -46,8 +46,6 @@
   * [References](computer-science/machine-learning/references.md)
 * [\*Operating System](computer-science/operating-system/README.md)
   * [PART ONE OVERVIEW](computer-science/operating-system/part-one-overview/README.md)
-    * [Chapter 1 Introduction](computer-science/operating-system/part-one-overview/chapter-1-introduction/README.md)
-      * [1.2 Computer-System Organization](computer-science/operating-system/part-one-overview/chapter-1-introduction/1.2-computer-system-organization.md)
-    * [\*Chapter 2 Operating System Structures](computer-science/operating-system/part-one-overview/chapter-2-operating-system-structures.md)
+    * [Chapter 1 Introduction](computer-science/operating-system/part-one-overview/chapter-1-introduction.md)
   * [References](computer-science/operating-system/references.md)
 
