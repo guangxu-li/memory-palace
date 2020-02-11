@@ -1,3 +1,7 @@
+---
+description: Almost all of notes are based on the book in references.
+---
+
 # \*Operating System
 
 {% hint style="success" %}
