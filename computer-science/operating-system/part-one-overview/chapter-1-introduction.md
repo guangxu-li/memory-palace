@@ -210,3 +210,25 @@ A **timer** can be set to interrupt the computer after a specified period.
 
 A process needs certain resources—including **CPU time, memory, files, and I/O devices**—to accomplish its task.
 
+{% hint style="warning" %}
+**Note:**
+
+A program is a **passive** entity, whereas a process is an **active** entity.
+{% endhint %}
+
+Single-threaded process has **one** **program counter** specifying the next instruction to execute, but a multithreaded process has **multiple** **program counters**, each pointing to the next instruction to execute for a given thread.
+
+{% hint style="success" %}
+**The operating system is responsible for the following activities in connection with process management:**
+
+* Creating and deleteing both user and system processes
+* Scheduling processes and threads on the CPUs
+* Suspending and resuming processes
+* Providing mechanisms for process synchronization
+* Providing mechanisms for process communication
+{% endhint %}
+
+### 1.5.2 Memory Management
+
+
+
