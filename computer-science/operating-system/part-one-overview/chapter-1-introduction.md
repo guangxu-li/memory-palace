@@ -4,7 +4,7 @@
 
 A computer system can be divided roughly into four components: the **hardware,** the **operating system,** the **application programs,** and a **user** \(Figure 1.1\).
 
-![Figure 1.1  Abstract view of the components of a computer system.](../../../.gitbook/assets/figure-1.1.png)
+![](../../../.gitbook/assets/os-figure-1.1.png)
 
 {% hint style="info" %}
 We can also view a computer system as consisting of hardware, software and data.
@@ -50,7 +50,7 @@ Concurrent execution of CPUs and devices competing for memory cycles.
 
 Each device controller has a local buffer and each type has an operating system **device driver** to manage it.
 
-![Figure 1.2  A typical PC computer system.](../../../.gitbook/assets/image.png)
+![](../../../.gitbook/assets/os-figure-1.2.png)
 
 ### 1.2.1 Interrupts
 
