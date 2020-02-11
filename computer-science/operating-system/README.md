@@ -1,5 +1,5 @@
 ---
-description: Almost all of notes are based on the book in references.
+description: 'The structure is based on the book: Operating System Concepts, 10th Edition.'
 ---
 
 # \*Operating System
