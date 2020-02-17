@@ -44,3 +44,25 @@ _**NP-complete problems:**_
 
 ## 1.2 Algorithms as a technology
 
+Computing time is therefore a bounded resource, and so it space in memory. Algorithms that are efficient in terms of time or space will help to use resources wisely.
+
+### Efficiency
+
+{% hint style="info" %}
+Computer A: The resulting code requires $$2n^2$$ instructions to sort $$n$$ numbers.
+
+Computer B: The resulting code taking $$50n lg n$$ instrucitons.
+
+To sort 10 million numbers, 
+
+computer A takes $$\frac{2 (10^7)^2 instructions}{10^{10} instructions / second} = 20,000 seconds$$
+
+computer B takes $$\frac{50(10^7)lg^{10^7} instructions}{10^7 instructions / second} \approx 1163 secondds$$
+{% endhint %}
+
+By using an algorithm whose running time grows more slowly, even with a poor compiler, computer B runs more than 17 times faster than computer A.
+
+### Algorithms and other technologies
+
+Total system performance depends on choosing efficient algorithms as much as on choosing fast hardware.
+
