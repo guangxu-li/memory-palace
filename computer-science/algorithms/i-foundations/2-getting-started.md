@@ -71,5 +71,53 @@ We usually consider one algorithm to be more efficient than another if its worst
 
 ## 2.3 Designing algorithms
 
+### 2.3.1 The divide-and-conquer approach
+
+The divide-and-conquer paradigm involves three steps at each level of the recursion:
+
+* **Divide** the problem into a number of subproblems that are smaller instances of the same problem.
+* **Conquer** the subproblems by solving them recursively.
+* **Combine** the solutions to the subproblems into the solution for the orginal problem.
+
+The **merge sort** algorithm closely follows the divide-and-conquer paradigm. Intuitively, it operates as follows.
+
+* **Divide:** Divide the n-element sequnce to be sorted into two subsequences of $$n/2$$ elements each.
+* **Conquer:** Sort the two subsequnces recursively using merge sort.
+* **Combine:** Merge the two sorted subsequences to produce the sorted answer.
+
+```text
+MERGE(A, p, q, r)
+n1 = q - p + 1
+n2 = r -q
+let L[1 .. n1 + 1] and R[1 .. n2 + 1] be new arrays
+for i = 1 to n1
+    L[i] = A[p + i - 1]
+for j = 1 to n2
+    R[j] = A[q + j]
+L[n1 + 1] = ∞
+R[n2 + 1] = ∞
+i = 1
+j = 1
+for k = p to r
+    if L[i] <= R[j]
+        A[k] = L[i]
+        i = i + 1
+    else A[k] = R[j]
+        j = j + 1        
+        
+MERGE-SORT(A, p, r)
+if p < r
+    q = ⌊(p + r) / 2 ⌋
+    MERGE-SORT(A, p, q)
+    MERGE-SORT(A, q + 1, r)
+    MERGE(A, p, q, r)
+```
+
+![Figure 2.3](../../../.gitbook/assets/algorithms-figure-2.3.jpg)
+
+
+
+### 2.3.2 Analyzing divide-and-conquer algorithms
+
 
 
