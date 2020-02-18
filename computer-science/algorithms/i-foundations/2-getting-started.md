@@ -69,3 +69,7 @@ Considering only the leading term of formula and ignore the leading term's const
 
 We usually consider one algorithm to be more efficient than another if its worst-case running time has a lower order of growth.
 
+## 2.3 Designing algorithms
+
+
+
