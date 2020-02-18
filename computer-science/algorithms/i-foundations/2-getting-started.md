@@ -133,7 +133,13 @@ THe worst-case running time:
 
 $$T(n) = \begin{cases} \Theta(1) &if \ n = 1,\\ 2T(n/2) + \Theta(n) &if \ n>1. \end{cases}$$
 
-\*\*\*\*
+{% hint style="warning" %}
+The solution to the recurrence is $$T(n) = \Theta(nlg\ n)$$
+{% endhint %}
+
+![Figure 2.5](../../../.gitbook/assets/algorithms-figure-2.5.jpg)
+
+
 
 
 
