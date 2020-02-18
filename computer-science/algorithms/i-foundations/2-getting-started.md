@@ -16,7 +16,7 @@ for j = 2 to A.length
     A[i + 1] = key
 ```
 
-### Loop invariants and the correctness of insertion sort
+#### Loop invariants and the correctness of insertion sort
 
 {% hint style="info" %}
 **Loop Invariant:**
@@ -32,7 +32,7 @@ Three things about a loop invariant:
 
 ## 2.2 Analyzing algorithms
 
-### Analysis of insertion sort
+#### Analysis of insertion sort
 
 | INSERTION-SORT\(A\) | cost | times |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ The worst-case running time is
 
 $$\begin{aligned} T(n) &= c_1 n + c_2 (n-1) + c_4 (n-1) + c_5 (\frac{n(n+1)}{2}-1)+c_6 (\frac{n(n-1)}{2}) +c_7 (\frac{n(n-1)}{2}) + c_8 (n-1) \\&= (\frac{c_5}{2} + \frac{c_6}{2} + \frac{c_7}{2})n^2 + (c_1 + c_2 +c_4 + \frac{c_5}{2} - \frac{c_6}{2} - \frac{c_7}{2} + c_8)n - (c_2+c_4+c_5+c_8).\end{aligned}$$
 
-### Worst-case and average-case analysis
+#### Worst-case and average-case analysis
 
 We shall usually concentrate on finding only the _**worst-cast running time**_**:**
 
@@ -63,7 +63,7 @@ We shall usually concentrate on finding only the _**worst-cast running time**_**
 * For some algorithms, the worst case occurs fairly often.
 * The "average case" is often roughly as bad as the worst case.
 
-### Order of growth
+#### Order of growth
 
 Considering only the leading term of formula and ignore the leading term's constant coefficient.
 
@@ -115,9 +115,25 @@ if p < r
 
 ![Figure 2.3](../../../.gitbook/assets/algorithms-figure-2.3.jpg)
 
-
+![Figure 2.4](../../../.gitbook/assets/algorithms-figure-2.4.jpg)
 
 ### 2.3.2 Analyzing divide-and-conquer algorithms
+
+If we take $$D(n)$$ time to divide the problem into subproblems and $$C(n)$$ time to combine the solutions to the subproblems into the solution to the original problem, we get the recurrence:
+
+$$T(n) = \begin{cases} \Theta(1) &if \ n \leq c,\\ aT(n/b) + D(n) + C(n) &otherwise. \end{cases}$$
+
+#### Analysis of merge sort
+
+$$D(n) = \Theta(1)$$
+
+$$C(n) = \Theta(n)$$
+
+THe worst-case running time:
+
+$$T(n) = \begin{cases} \Theta(1) &if \ n = 1,\\ 2T(n/2) + \Theta(n) &if \ n>1. \end{cases}$$
+
+\*\*\*\*
 
 
 

@@ -4,7 +4,7 @@
 
 ## COMPUTER SCIENCE
 
-* [Algorithms](computer-science/algorithms/README.md)
+* [\*Algorithms](computer-science/algorithms/README.md)
   * [I Foundations](computer-science/algorithms/i-foundations/README.md)
     * [1 The Role of Algorithms in Computing](computer-science/algorithms/i-foundations/1-the-role-of-algorithms-in-computing.md)
     * [2 Getting Started](computer-science/algorithms/i-foundations/2-getting-started.md)
