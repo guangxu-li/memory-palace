@@ -46,7 +46,7 @@ _**NP-complete problems:**_
 
 Computing time is therefore a bounded resource, and so it space in memory. Algorithms that are efficient in terms of time or space will help to use resources wisely.
 
-### Efficiency
+**Efficiency**
 
 {% hint style="info" %}
 Computer A: The resulting code requires $$2n^2$$ instructions to sort $$n$$ numbers.
@@ -62,7 +62,7 @@ computer B takes $$\frac{50(10^7)lg^{10^7} instructions}{10^7 instructions / sec
 
 By using an algorithm whose running time grows more slowly, even with a poor compiler, computer B runs more than 17 times faster than computer A.
 
-### Algorithms and other technologies
+**Algorithms and other technologies**
 
 Total system performance depends on choosing efficient algorithms as much as on choosing fast hardware.
 
