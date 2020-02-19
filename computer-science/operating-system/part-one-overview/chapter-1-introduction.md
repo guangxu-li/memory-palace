@@ -1,3 +1,7 @@
+---
+description: '//TODO: 1.6, 1.7, 1.8, 1.9'
+---
+
 # Chapter 1 Introduction
 
 ## 1.1 What Operating Systems Do
