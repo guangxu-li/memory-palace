@@ -17,9 +17,11 @@ An algorithm is thus **a sequence of computational steps** that **transform the 
 {% hint style="info" %}
 **How to formally define the** _**sorting problem:**_
 
-**Input:** A sequence of $$n$$numbers $$<a_1,a_2,...,a_n>$$.
+**Input:** A sequence of $$n$$numbers $$\left\langle a_{1}, a_{2}, \ldots, a_{n}\right\rangle.$$ 
 
-**Output:** A permutation \(reordering\) $$<a_{1}^{'},a_{2}^{'},...,a_{3}^{'}>$$ of the input sequence such that $$<a_{1}^{'}\leq a_{2}^{'}\leq \dots \leq a_{3}^{'}>$$.
+**Output:** A permutation \(reordering\) $$\left\langle a_{1}^{\prime}, a_{2}^{\prime}, \ldots, a_{n}^{\prime}\right\rangle$$ of the input sequence such that $$a_{1}^{\prime} \leq a_{2}^{\prime} \leq \cdots \leq a_{n}^{\prime}$$.
+
+ 
 {% endhint %}
 
 An algorithm is said to be _**correct**_ if, for **every** input instance, it halts with the correct output. We say that a correct algorithm _**solves**_ the given computational problem.
@@ -55,9 +57,9 @@ Computer B: The resulting code taking $$50n lg n$$ instrucitons.
 
 To sort 10 million numbers, 
 
-computer A takes $$\frac{2 (10^7)^2 instructions}{10^{10} instructions / second} = 20,000 \ seconds$$
+computer A takes $$\frac{2 \cdot\left(10^{7}\right)^{2} \text { instructions }}{10^{10} \text { instructions } / \text { second }}=20,000 \text{ seconds}$$
 
-computer B takes $$\frac{50(10^7)lg^{10^7} instructions}{10^7 instructions / second} \approx 1,163\ secondds$$
+computer B takes $$\frac{50 \cdot 10^{7} \lg 10^{7} \text { instructions }}{10^{7} \text { instructions/second }} \approx 1163 \text { seconds }$$
 {% endhint %}
 
 By using an algorithm whose running time grows more slowly, even with a poor compiler, computer B runs more than 17 times faster than computer A.
