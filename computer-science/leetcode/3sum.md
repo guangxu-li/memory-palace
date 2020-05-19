@@ -128,8 +128,8 @@ These optimizations don't change the big-O complexity, but help speed things up:
 
 **Complexity Analysis**
 
-* **Time Complexity:** $$O(n^2)$$. We have outer and inner loops, each going through n elements. This algorithm is noticeably **slower** than the previous approach. Lookups in a hash set, though requiring a constant time, are expensive compared to the direct memory access.
-* **Space Complexity:** $$O(n^2)$$. We may need to store up to $$n^2$$ elements in a hash set for deduplication. We need the same amount of memory here as to store the output. In the worst case, there could be $$O(n^2)$$ triplets in the output, like for this example: `[-k, -k + 1, ..., -1, 0, 1, ... k - 1, k]`. Adding a new number to this sequence will produce `n / 3` new triplets.
+* **Time complexity:** $$O(n^2)$$. We have outer and inner loops, each going through n elements. This algorithm is noticeably **slower** than the previous approach. Lookups in a hash set, though requiring a constant time, are expensive compared to the direct memory access.
+* **Space complexity:** $$O(n^2)$$. We may need to store up to $$n^2$$ elements in a hash set for deduplication. We need the same amount of memory here as to store the output. In the worst case, there could be $$O(n^2)$$ triplets in the output, like for this example: `[-k, -k + 1, ..., -1, 0, 1, ... k - 1, k]`. Adding a new number to this sequence will produce `n / 3` new triplets.
 
 ## Related Topics
 
