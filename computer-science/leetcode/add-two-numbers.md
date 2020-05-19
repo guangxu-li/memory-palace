@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# 2. Add Two Numbers
+# B 2. Add Two Numbers
 
 ## [Description](https://leetcode.com/problems/add-two-numbers/)
 
@@ -81,10 +81,10 @@ public class Solution {
 
 | Similar Questions | Difficulty |
 | :--- | :--- |
-| [Multiply Strings](multiply-strings.md) | Medium |
+| [Multiply Strings](multiply-strings.md) | _Medium_ |
 | [Add Binary](add-binary.md) | Easy |
 | [Sum of Two Integers](sum-of-two-integers.md) | Easy |
 | [Add Strings](add-strings.md) | Easy |
-| [Add Two Numbers II](add-two-numbers-ii.md) | Medium |
+| [Add Two Numbers II](add-two-numbers-ii.md) | _Medium_ |
 | [Add to Array-Form of Integer](add-to-array-form-of-integer.md) | Easy |
 

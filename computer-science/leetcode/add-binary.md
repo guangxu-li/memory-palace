@@ -2,7 +2,7 @@
 description: Easy
 ---
 
-# 67. Add Binary
+# \*C 67. Add Binary
 
 ## [Description](https://leetcode.com/problems/add-binary/)
 

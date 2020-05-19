@@ -2,7 +2,7 @@
 description: Easy
 ---
 
-# 1099. Two Sum Less Than K
+# \*C 1099. Two Sum Less Than K
 
 ## [Description](https://leetcode.com/problems/two-sum-less-than-k/)
 

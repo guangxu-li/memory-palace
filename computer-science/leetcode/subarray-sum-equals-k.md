@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# 560. Subarray Sum Equals K
+# \*B 560. Subarray Sum Equals K
 
 ## [Description](https://leetcode.com/problems/subarray-sum-equals-k/)
 

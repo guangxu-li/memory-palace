@@ -2,7 +2,7 @@
 description: Easy
 ---
 
-# 371. Sum of Two Integers
+# \*C 371. Sum of Two Integers
 
 ## [Description](https://leetcode.com/problems/sum-of-two-integers/)
 

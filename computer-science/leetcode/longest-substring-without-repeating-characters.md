@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# 3. Longest Substring Without Repeating Characters
+# B 3. Longest Substring Without Repeating Characters
 
 ## [Description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
@@ -198,7 +198,7 @@ public class Solution {
 
 | Similar Questions | Difficulty |
 | :--- | :--- |
-| [Longest Substring with At Most Two Distinct Characters](longest-substring-with-at-most-two-distinct-characters.md) | Medium |
-| [Longest Substring with At Most K Distinct Characters](longest-substring-with-at-most-k-distinct-characters.md) | Hard |
-| [Subarrays with K Different Integers](subarrays-with-k-different-integers.md) | Hard |
+| [Longest Substring with At Most Two Distinct Characters](longest-substring-with-at-most-two-distinct-characters.md) | _Medium_ |
+| [Longest Substring with At Most K Distinct Characters](longest-substring-with-at-most-k-distinct-characters.md) | **Hard** |
+| [Subarrays with K Different Integers](subarrays-with-k-different-integers.md) | **Hard** |
 

@@ -2,7 +2,7 @@
 description: Hard
 ---
 
-# 4. Median of Two Sorted Arrays
+# A 4. Median of Two Sorted Arrays
 
 ## [Description](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
@@ -126,6 +126,4 @@ class Solution {
 ## Related Topics
 
 [_Array_](https://leetcode.com/tag/Array/)_,_ [_Binary Search_](https://leetcode.com/tag/binary-search/)_,_ [_Divide and Conquer_](https://leetcode.com/tag/divide-and-conquer/)\_\_
-
-
 

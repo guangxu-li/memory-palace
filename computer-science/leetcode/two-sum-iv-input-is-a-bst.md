@@ -2,7 +2,7 @@
 description: Easy
 ---
 
-# 653. Two Sum IV - Input is a BST
+# \*C 653. Two Sum IV - Input is a BST
 
 ## [Description](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 

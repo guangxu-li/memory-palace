@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# 159. Longest Substring with At Most Two Distinct Characters
+# \*B 159. Longest Substring with At Most Two Distinct Characters
 
 ## [Description](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
 

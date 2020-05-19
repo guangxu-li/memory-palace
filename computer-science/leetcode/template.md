@@ -1,4 +1,4 @@
-# \*\(Difficulty\) Template
+# ?\*\(Difficulty\) Template
 
 ## Description
 

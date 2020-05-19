@@ -2,7 +2,7 @@
 description: Easy
 ---
 
-# 415. Add Strings
+# \*C 415. Add Strings
 
 ## [Description](https://leetcode.com/problems/add-strings/)
 

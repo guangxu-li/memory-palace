@@ -2,7 +2,7 @@
 description: Hard
 ---
 
-# 992. Subarrays with K Different Integers
+# \*A 992. Subarrays with K Different Integers
 
 ## [Description](https://leetcode.com/problems/subarrays-with-k-different-integers/)
 

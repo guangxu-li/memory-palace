@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# 18. 4Sum
+# \*B 18. 4Sum
 
 ## [Description](https://leetcode.com/problems/4sum/)
 

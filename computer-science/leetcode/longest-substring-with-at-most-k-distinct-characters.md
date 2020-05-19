@@ -2,7 +2,7 @@
 description: Hard
 ---
 
-# 340. Longest Substring with At Most K Distinct Characters
+# \*A 340. Longest Substring with At Most K Distinct Characters
 
 ## [Description](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 

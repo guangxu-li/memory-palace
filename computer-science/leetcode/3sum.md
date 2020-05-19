@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# 15. 3Sum
+# B 15. 3Sum
 
 ## [Description](https://leetcode.com/problems/3sum/)
 
@@ -138,7 +138,7 @@ These optimizations don't change the big-O complexity, but help speed things up:
 | Similar Questions | Difficulty |
 | :--- | :--- |
 | [Two Sum](two-sum.md) | Easy |
-| [3Sum Closest](16.-3sum-closest.md) | Medium |
-| [4Sum](4sum.md) | Medium |
-| [3Sum Smaller](259.-3sum-smaller.md) | Medium |
+| [3Sum Closest](16.-3sum-closest.md) | _Medium_ |
+| [4Sum](4sum.md) | _Medium_ |
+| [3Sum Smaller](259.-3sum-smaller.md) | _Medium_ |
 
