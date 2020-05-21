@@ -50,7 +50,7 @@
   * [\*B 16. 3Sum Closest](computer-science/leetcode/16.-3sum-closest.md)
   * [\*B 18. 4Sum](computer-science/leetcode/4sum.md)
   * [C 21. Merge Two Sorted Lists](computer-science/leetcode/21.-merge-two-sorted-lists.md)
-  * [\*A 23. Merge k Sorted Lists](computer-science/leetcode/a-23.-merge-k-sorted-lists.md)
+  * [A 23. Merge k Sorted Lists](computer-science/leetcode/a-23.-merge-k-sorted-lists.md)
   * [\*A 30. Substring with Concatenation of All Words](computer-science/leetcode/a-30.-substring-with-concatenation-of-all-words.md)
   * [\*B 43. Multiply Strings](computer-science/leetcode/multiply-strings.md)
   * [\*C 67. Add Binary](computer-science/leetcode/add-binary.md)
