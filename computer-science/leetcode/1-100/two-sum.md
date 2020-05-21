@@ -109,9 +109,9 @@ public class Solution {
 | :--- | :--- |
 | [3Sum](3sum.md) | _Medium_ |
 | [4Sum](4sum.md) | _Medium_ |
-| [Two Sum II - Input array is sorted](two-sum-ii-input-array-is-sorted.md) | Easy |
-| [Two Sum III - Data structure design](two-sum-iii-data-structure-design.md) | Easy |
-| [Subarray Sum Equals K](subarray-sum-equals-k.md) | _Medium_ |
-| [Two Sum IV - Input is a BST](two-sum-iv-input-is-a-bst.md) | Easy |
-| [Two Sum Less Than K](two-sum-less-than-k.md) | Easy |
+| [Two Sum II - Input array is sorted](../101-200/two-sum-ii-input-array-is-sorted.md) | Easy |
+| [Two Sum III - Data structure design](../101-200/two-sum-iii-data-structure-design.md) | Easy |
+| [Subarray Sum Equals K](../501-600/subarray-sum-equals-k.md) | _Medium_ |
+| [Two Sum IV - Input is a BST](../601-700/two-sum-iv-input-is-a-bst.md) | Easy |
+| [Two Sum Less Than K](../1001-1100/two-sum-less-than-k.md) | Easy |
 

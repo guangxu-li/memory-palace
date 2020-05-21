@@ -198,7 +198,7 @@ public class Solution {
 
 | Similar Questions | Difficulty |
 | :--- | :--- |
-| [Longest Substring with At Most Two Distinct Characters](longest-substring-with-at-most-two-distinct-characters.md) | _Medium_ |
-| [Longest Substring with At Most K Distinct Characters](longest-substring-with-at-most-k-distinct-characters.md) | **Hard** |
-| [Subarrays with K Different Integers](subarrays-with-k-different-integers.md) | **Hard** |
+| [Longest Substring with At Most Two Distinct Characters](../101-200/longest-substring-with-at-most-two-distinct-characters.md) | _Medium_ |
+| [Longest Substring with At Most K Distinct Characters](../301-400/longest-substring-with-at-most-k-distinct-characters.md) | **Hard** |
+| [Subarrays with K Different Integers](../901-1000/subarrays-with-k-different-integers.md) | **Hard** |
 

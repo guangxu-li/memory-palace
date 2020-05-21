@@ -28,7 +28,7 @@ A solution set is:
 
 ### Approach 1: Two Pointers
 
-We just need to modify [`twoSumII`](two-sum-ii-input-array-is-sorted.md) to produce triplets and skip repeating values.
+We just need to modify [`twoSumII`](../101-200/two-sum-ii-input-array-is-sorted.md) to produce triplets and skip repeating values.
 
 ```text
 3SUM(nums[])
@@ -140,5 +140,5 @@ These optimizations don't change the big-O complexity, but help speed things up:
 | [Two Sum](two-sum.md) | Easy |
 | [3Sum Closest](16.-3sum-closest.md) | _Medium_ |
 | [4Sum](4sum.md) | _Medium_ |
-| [3Sum Smaller](259.-3sum-smaller.md) | _Medium_ |
+| [3Sum Smaller](../201-300/259.-3sum-smaller.md) | _Medium_ |
 

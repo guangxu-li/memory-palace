@@ -24,7 +24,7 @@ Explanation: 342 + 465 = 807.
 
 #### Intuition
 
-![Figure 1. Visualization of the addition of two numbers: 342 + 465 = 807.](../../.gitbook/assets/2_add_two_numbers.svg)
+![Figure 1. Visualization of the addition of two numbers: 342 + 465 = 807.](../../../.gitbook/assets/2_add_two_numbers.svg)
 
 #### Algorithm
 
@@ -83,8 +83,8 @@ public class Solution {
 | :--- | :--- |
 | [Multiply Strings](multiply-strings.md) | _Medium_ |
 | [Add Binary](add-binary.md) | Easy |
-| [Sum of Two Integers](sum-of-two-integers.md) | Easy |
-| [Add Strings](add-strings.md) | Easy |
-| [Add Two Numbers II](add-two-numbers-ii.md) | _Medium_ |
-| [Add to Array-Form of Integer](add-to-array-form-of-integer.md) | Easy |
+| [Sum of Two Integers](../301-400/sum-of-two-integers.md) | Easy |
+| [Add Strings](../401-500/add-strings.md) | Easy |
+| [Add Two Numbers II](../401-500/add-two-numbers-ii.md) | _Medium_ |
+| [Add to Array-Form of Integer](../901-1000/add-to-array-form-of-integer.md) | Easy |
 
