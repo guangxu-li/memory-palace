@@ -56,8 +56,14 @@ $$
 
 To ensure these two conditions, we need to ensure:
 
-1. $$i+j=m−i+n−j$$ If $$n \geq m$$, we just need to set: $$i = 0 \sim m, j = \frac{m + n + 1}{2} - i$$
+1. $$i+j=m−i+n−j$$ \(or: $$m - i + n - j + 1$$\) If $$n \geq m$$, we just need to set: $$i = 0 \sim m, j = \frac{m + n + 1}{2} - i$$
 2. $$B[j-1] \leq A[i]$$ and $$A[i-1] \leq B[j]$$
+
+{% hint style="info" %}
+$$i + j = m - i + n - j \Rightarrow 2i + 2j = m + n$$ 
+
+Since $$i \in [0, m]$$, to get $$j = \frac{m + n + 1}{2} - i$$, $$m$$ needs to be no larger than $$n$$.
+{% endhint %}
 
 **So the goal is to search** $$i \in [0, m]$$**such that** $$B[j-1] \leq A[i]$$ **and** $$A[i-1] \leq B[j]$$**, where** $$j=\frac{m+n+1}{2}-i$$**.**
 
