@@ -47,7 +47,7 @@ Check all the substring one by one to see if it has no duplicate character.
 2. If a substring has no duplicate characters, then update the answer.
 
 ```java
-public class Solution {
+class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
         int ans = 0;
@@ -101,7 +101,7 @@ A sliding window is a window "slides" its two boundaries to the certain directio
 3. Repeat **Step 1** and **Step 2** for all i.
 
 ```java
-public class Solution {
+class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
         Set<Character> set = new HashSet<>();
@@ -141,7 +141,7 @@ We could define a mapping of the characters to its index and skip the characters
 #### Java \(Using HashMap\)
 
 ```java
-public class Solution {
+class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;
         Map<Character, Integer> map = new HashMap<>();
@@ -171,7 +171,7 @@ If we know that the charset is rather small, we can replace the `Map` with an In
 {% endhint %}
 
 ```java
-public class Solution {
+class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;
         int[] index = new int[128];
