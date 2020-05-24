@@ -60,9 +60,7 @@ To ensure these two conditions, we need to ensure:
 2. $$B[j-1] \leq A[i]$$ and $$A[i-1] \leq B[j]$$
 
 {% hint style="info" %}
-$$i + j = m - i + n - j \Rightarrow 2i + 2j = m + n$$ 
-
-Since $$i \in [0, m]$$, to get $$j = \frac{m + n + 1}{2} - i$$, $$m$$ needs to be no larger than $$n$$.
+When $$i = 0$$and $$m > n$$, then for **nums2**, there's no enough elements to make the size of left part be equal to the one of right part.
 {% endhint %}
 
 **So the goal is to search** $$i \in [0, m]$$**such that** $$B[j-1] \leq A[i]$$ **and** $$A[i-1] \leq B[j]$$**, where** $$j=\frac{m+n+1}{2}-i$$**.**

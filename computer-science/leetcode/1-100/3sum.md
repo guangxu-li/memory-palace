@@ -99,24 +99,26 @@ Fortunately, we do not need to store all three values - storing the smallest and
 We process each value from left to right. For value `v`, we need to find all pairs whose sum is equal `-v`. To find such pairs, we apply the [Two Sum: One-pass Hash Table](two-sum.md#approach-3-one-pass-hash-table) approach to the rest of the array. To ensure unique triplets, we use a hash set `found` as described above.
 
 ```java
-public List<List<Integer>> threeSum(int[] nums) {
-    List<List<Integer>> res = new ArrayList<>();
-    Set<Pair> found = new HashSet<>();
-    for (int i = 0; i < nums.length; ++i) {
-        Set<Integer> seen = new HashSet<>();
-        for (int j = i + 1; j < nums.length; ++j) {
-            int complement = -nums[i] - nums[j];
-            if (seen.contains(complement)) {
-                int v1 = Math.min(nums[i], Math.min(complement, nums[j]));
-                int v2 = Math.max(nums[i], Math.max(complement, nums[j]));
-                if (found.add(new Pair(v1, v2)))
-                    res.add(Arrays.asList(nums[i], complement, nums[j]));
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        Set<Pair> found = new HashSet<>();
+        for (int i = 0; i < nums.length; ++i) {
+            Set<Integer> seen = new HashSet<>();
+            for (int j = i + 1; j < nums.length; ++j) {
+                int complement = -nums[i] - nums[j];
+                if (seen.contains(complement)) {
+                    int v1 = Math.min(nums[i], Math.min(complement, nums[j]));
+                    int v2 = Math.max(nums[i], Math.max(complement, nums[j]));
+                    if (found.add(new Pair(v1, v2)))
+                        res.add(Arrays.asList(nums[i], complement, nums[j]));
+                }
+                seen.add(nums[j]);
             }
-            seen.add(nums[j]);
         }
+        return res;
     }
-    return res;
-}
+]
 ```
 
 **Optimized Algorithm**
@@ -125,6 +127,31 @@ These optimizations don't change the big-O complexity, but help speed things up:
 
 1. Use another hash set `dups` to skip duplicates in the outer loop. 
 2. Instead of re-populating a hash set every time in the inner loop, we can populate a hashmap once and then only modify values. After we process `nums[j]` in the inner loop, we set the hashmap value to `i`. This indicates that we can now use `nums[j]` to find pairs for `nums[i]`.
+
+```java
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        Set<Pair> found = new HashSet<>();
+        Set<Integer> dups = new HashSet<>();
+        Map<Integer, Integer> seen = new HashMap<>();
+        for (int i = 0; i < nums.length; ++i)
+            if (dups.add(nums[i]))
+                for (int j = i + 1; j < nums.length; ++j) {
+                    int complement = -nums[i] - nums[j];
+                    if (seen.containsKey(complement) && seen.get(complement) == i) {
+                        int v1 = Math.min(nums[i], Math.min(complement, nums[j]));
+                        int v2 = Math.max(nums[i], Math.max(complement, nums[j]));
+                        if (found.add(new Pair(v1, v2)))
+                            res.add(Arrays.asList(nums[i], complement, nums[j]));
+                    }
+                    seen.put(nums[j], i);
+                }
+        return res;
+        }
+    }
+}
+```
 
 **Complexity Analysis**
 
