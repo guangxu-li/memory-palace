@@ -26,7 +26,7 @@ return [0, 1].
 The brute force approach is simple. Loop through each element $$x$$ and find if there is another value that equals to $$target - x$$.
 
 ```java
-public class Solution {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -54,18 +54,20 @@ A hash table is built to reduce look up time from $$O(n)$$ to $$O(1)$$ by tradin
 {% endhint %}
 
 ```java
-public int[] twoSum(int[] nums, int target) {
-    Map<Integer, Integer> map = new HashMap<>();
-    for (int i = 0; i < nums.length; i++) {
-        map.put(nums[i], i);
-    }
-    for (int i = 0; i < nums.length; i++) {
-        int complement = target - nums[i];
-        if (map.containsKey(complement) && map.get(complement) != i) {
-            return new int[] { i, map.get(complement) };
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], i);
         }
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement) && map.get(complement) != i) {
+                return new int[] { i, map.get(complement) };
+            }
+        }
+        throw new IllegalArgumentException("No two sum solution");
     }
-    throw new IllegalArgumentException("No two sum solution");
 }
 ```
 
@@ -77,7 +79,7 @@ public int[] twoSum(int[] nums, int target) {
 ### Approach 3: One-pass Hash Table
 
 ```java
-public class Solution {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
@@ -85,10 +87,10 @@ public class Solution {
             int complement = target - nums[i];
 
             if (map.containsKey(complement)) {
-                return new int[] {map.get(complement), i};
+                return new int[] { map.get(complement), i };
+            } else {
+                map.put(nums[i], i);
             }
-
-            map.put(nums[i], i);
         }
 
         throw new IllegalArgumentException("No Answer.");
