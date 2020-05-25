@@ -47,6 +47,7 @@
     * [B 2. Add Two Numbers](computer-science/leetcode/1-100/add-two-numbers.md)
     * [B 3. Longest Substring Without Repeating Characters](computer-science/leetcode/1-100/longest-substring-without-repeating-characters.md)
     * [A 4. Median of Two Sorted Arrays](computer-science/leetcode/1-100/median-of-two-sorted-arrays.md)
+    * [B 5. Longest Palindromic Substring](computer-science/leetcode/1-100/b-5.-longest-palindromic-substring.md)
     * [\*B 16. 3Sum Closest](computer-science/leetcode/1-100/16.-3sum-closest.md)
     * [B 15. 3Sum](computer-science/leetcode/1-100/3sum.md)
     * [\*B 18. 4Sum](computer-science/leetcode/1-100/4sum.md)
