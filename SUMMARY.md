@@ -51,6 +51,7 @@
     * [B 6. ZigZag Conversion](computer-science/leetcode/1-100/b-6.-zigzag-conversion.md)
     * [C 7. Reverse Integer](computer-science/leetcode/1-100/c-7.-reverse-integer.md)
     * [B 8. String to Integer \(atoi\)](computer-science/leetcode/1-100/b-8.-string-to-integer-atoi.md)
+    * [C 9. Palindrome Number](computer-science/leetcode/1-100/c-9.-palindrome-number.md)
     * [\*B 16. 3Sum Closest](computer-science/leetcode/1-100/16.-3sum-closest.md)
     * [B 15. 3Sum](computer-science/leetcode/1-100/3sum.md)
     * [\*B 18. 4Sum](computer-science/leetcode/1-100/4sum.md)
