@@ -53,9 +53,11 @@ TWOSUMII(nums[], i, res)
 ```
 
 ```java
-class Solution { 
-    public List> threeSum(int[] nums) { 
-        Arrays.sort(nums); List> res = new ArrayList<>();
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
+
         for (int i = 0; i < nums.length && nums[i] <= 0; i++) {
             if (i == 0 || nums[i - 1] != nums[i]) {
                 twoSumII(nums, i, res);
@@ -66,7 +68,8 @@ class Solution {
     }
 
     public void twoSumII(int[] nums, int i, List<List<Integer>> res) {
-        int lo = i + 1, hi = nums.length - 1;
+        int lo = i + 1;
+        int hi = nums.length - 1;
 
         while (lo < hi) {
             int sum = nums[i] + nums[lo] + nums[hi];
