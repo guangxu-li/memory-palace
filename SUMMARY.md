@@ -111,6 +111,7 @@
   * [601–700](computer-science/leetcode/601-700/README.md)
     * [?C 617. Merge Two Binary Trees](computer-science/leetcode/601-700/617.-merge-two-binary-trees.md)
     * [\*A 632. Smallest Range Covering Elements from K Lists](computer-science/leetcode/601-700/a-632.-smallest-range-covering-elements-from-k-lists.md)
+    * [\*A 642. Design Search Autocomplete System](computer-science/leetcode/601-700/a-642.-design-search-autocomplete-system.md)
     * [\*B 647. Palindromic Substrings](computer-science/leetcode/601-700/b-647.-palindromic-substrings.md)
     * [\*C 653. Two Sum IV - Input is a BST](computer-science/leetcode/601-700/two-sum-iv-input-is-a-bst.md)
     * [\*C 680. Valid Palindrome II](computer-science/leetcode/601-700/680.-valid-palindrome-ii.md)
