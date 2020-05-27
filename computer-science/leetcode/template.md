@@ -30,11 +30,5 @@
 * **Time complexity:** 
 * **Space complexity:** 
 
-## Related Topics
 
-_Tags_
-
-| Similar Questions | Difficulty |
-| :--- | :--- |
-|  |  |
 

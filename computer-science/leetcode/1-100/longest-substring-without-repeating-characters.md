@@ -192,13 +192,3 @@ class Solution {
 * **Space complexity \(HashMap\):** $$O(min(m,n))$$. Same as the previous approach.
 * **Space complexity \(Table\):** $$O(m)$$. $$m$$ is the size of the charset.
 
-## Related Topics
-
-[_Hash Table_](https://leetcode.com/tag/hash-table/)_,_ [_Sliding Window_](https://leetcode.com/tag/sliding-window/)_,_ [_String_](https://leetcode.com/tag/string/)_,_ [_Two Pointers_](https://leetcode.com/tag/two-pointers/)\_\_
-
-| Similar Questions | Difficulty |
-| :--- | :--- |
-| [Longest Substring with At Most Two Distinct Characters](../101-200/longest-substring-with-at-most-two-distinct-characters.md) | _Medium_ |
-| [Longest Substring with At Most K Distinct Characters](../301-400/longest-substring-with-at-most-k-distinct-characters.md) | **Hard** |
-| [Subarrays with K Different Integers](../901-1000/subarrays-with-k-different-integers.md) | **Hard** |
-

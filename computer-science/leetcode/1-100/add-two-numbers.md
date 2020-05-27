@@ -81,16 +81,3 @@ class Solution {
 * **Time complexity:** $$O(max(m,n))$$. m and n represents the length of l1 and l2 respectively.
 * **Space complexity:** $$O(max(m,n))$$. The length of the new list is at most $$max(m,n)+1$$.
 
-## Related Topics
-
-[_Linked List_](https://leetcode.com/tag/linked-list/)_,_ [_Math_](https://leetcode.com/tag/math/)\_\_
-
-| Similar Questions | Difficulty |
-| :--- | :--- |
-| [Multiply Strings](multiply-strings.md) | _Medium_ |
-| [Add Binary](add-binary.md) | Easy |
-| [Sum of Two Integers](../301-400/sum-of-two-integers.md) | Easy |
-| [Add Strings](../401-500/add-strings.md) | Easy |
-| [Add Two Numbers II](../401-500/add-two-numbers-ii.md) | _Medium_ |
-| [Add to Array-Form of Integer](../901-1000/add-to-array-form-of-integer.md) | Easy |
-

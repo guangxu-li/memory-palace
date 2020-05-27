@@ -161,14 +161,3 @@ class Solution {
 * **Time complexity:** $$O(n^2)$$. We have outer and inner loops, each going through n elements. This algorithm is noticeably **slower** than the previous approach. Lookups in a hash set, though requiring a constant time, are expensive compared to the direct memory access.
 * **Space complexity:** $$O(n^2)$$. We may need to store up to $$n^2$$ elements in a hash set for deduplication. We need the same amount of memory here as to store the output. In the worst case, there could be $$O(n^2)$$ triplets in the output, like for this example: `[-k, -k + 1, ..., -1, 0, 1, ... k - 1, k]`. Adding a new number to this sequence will produce `n / 3` new triplets.
 
-## Related Topics
-
-[_Array_](https://leetcode.com/tag/Array/)_,_ [_Two Pointers_](https://leetcode.com/tag/two-pointers/)\_\_
-
-| Similar Questions | Difficulty |
-| :--- | :--- |
-| [Two Sum](two-sum.md) | Easy |
-| [3Sum Closest](16.-3sum-closest.md) | _Medium_ |
-| [4Sum](4sum.md) | _Medium_ |
-| [3Sum Smaller](../201-300/259.-3sum-smaller.md) | _Medium_ |
-
