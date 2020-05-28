@@ -101,5 +101,5 @@ class Solution {
 **Complexity Analysis**
 
 * **Time complexity:** $$O(n^3)$$. `twoSum() -> O(n), threeSum() -> n * O(n), fourSum() -> n * threeSum();`
-* **Space complexity:** $$O(1)$$ if we exclude the recursion stack.
+* **Space complexity:** $$O(1)$$.
 
