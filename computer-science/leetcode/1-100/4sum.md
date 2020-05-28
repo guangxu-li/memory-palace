@@ -87,7 +87,7 @@ class Solution {
             } else if (sum > target || (hi < nums.length - 1 && nums[hi] == nums[hi + 1])) {
                 hi--;
             } else {
-                ans.add(new ArrayList(Arrays.asList(nums[lo], nums[hi])));
+                ans.add(new ArrayList<Integer>(Arrays.asList(nums[lo], nums[hi])));
                 lo++;
                 hi--;
             }
