@@ -65,6 +65,7 @@
     * [B 19. Remove Nth Node From End of List](computer-science/leetcode/1-100/b-19.-remove-nth-node-from-end-of-list.md)
     * [C 20.Valid Parentheses](computer-science/leetcode/1-100/c-20.valid-parentheses.md)
     * [C 21. Merge Two Sorted Lists](computer-science/leetcode/1-100/21.-merge-two-sorted-lists.md)
+    * [B 22. Generate Parentheses](computer-science/leetcode/1-100/b-22.-generate-parentheses.md)
     * [A 23. Merge k Sorted Lists](computer-science/leetcode/1-100/a-23.-merge-k-sorted-lists.md)
     * [\*A 30. Substring with Concatenation of All Words](computer-science/leetcode/1-100/a-30.-substring-with-concatenation-of-all-words.md)
     * [\*B 33. Search in Rotated Sorted Array](computer-science/leetcode/1-100/b-33.-search-in-rotated-sorted-array.md)
