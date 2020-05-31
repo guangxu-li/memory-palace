@@ -226,10 +226,84 @@ class Solution {
 
 **Intution & Algorithm**
 
-In the previous approach, we maintain a list to store doubles. Instead of creating a list, we could only store the largest doubles found at the beginning. For the following search, we could divide it by 2.
+In the previous approach, we maintain a list to store doubles. Instead of creating a list, we could only store the largest doubles found at the beginning. For the following search, we could divide it by 2 repeatly until we found it's less than the dividend.
+
+Even though it's not allowed to use division according to the decription, we can still achieve this by using bit shift.
+
+{% hint style="warning" %}
+One potential pitfall with the right-shift operator is using it on negative _odd_ numbers.
 
 ```java
+int a = -1020;
+a = a >> 1;
+System.out.println(a);
+// Prints -510. Great!
+int b = -1021;
+b = b >> 1;
+System.out.println(b);
+// Prints -511. Ugghh.
+```
 
+The solution is to add 1 before doing the bit-shift on a _negative_ number.
+
+```java
+int a = -1020;
+a = (a + 1) >> 1;
+System.out.println(a);
+// Prints -510. Great!
+int b = -1021;
+b = (b + 1) >> 1;
+System.out.println(b);
+// Prints -510. Yay!
+```
+{% endhint %}
+
+```java
+class Solution {
+    private static int HALF_INT_MIN = -1073741824;
+
+    public int divide(int dividend, int divisor) {
+        if (dividend == Integer.MIN_VALUE && divisor == -1) {
+            return Integer.MAX_VALUE;
+        }
+
+        int op = -1;
+
+        if (dividend > 0) {
+            dividend = -dividend;
+        } else {
+            op = -op;
+        }
+
+        if (divisor > 0) {
+            divisor = -divisor;
+        } else {
+            op = -op;
+        }
+
+        int pow = -1;
+        int value = divisor;
+
+        while (value >= HALF_INT_MIN && value + value >= dividend) {
+            value += value;
+            pow += pow;
+        }
+
+        int quotient = 0;
+
+        while (dividend <= divisor) {
+            if (dividend <= value) {
+                dividend -= value;
+                quotient += pow;
+            }
+
+            value >>= 1;
+            pow >>= 1;
+        }
+
+        return op == -1 ? -quotient : quotient;
+    }
+}
 ```
 
 #### Complexity Analysis
