@@ -2,13 +2,11 @@
 
 ## Description
 
-## Solution
-
-### Approach 1: 
+## Approach 1: 
 
 **Intution & Algorithm**
 
-```text
+```java
 
 ```
 
@@ -17,11 +15,52 @@
 * **Time complexity:** 
 * **Space complexity:** 
 
-### Approach 2: 
+## Approach 2: 
 
 **Intution & Algorithm**
 
-```text
+```java
+
+```
+
+#### Complexity Analysis
+
+* **Time complexity:** 
+* **Space complexity:** 
+
+## Approach 3: 
+
+**Intution & Algorithm**
+
+```java
+
+```
+
+#### Complexity Analysis
+
+* **Time complexity:** 
+* **Space complexity:** 
+
+
+
+## Approach 4: 
+
+**Intution & Algorithm**
+
+```java
+
+```
+
+#### Complexity Analysis
+
+* **Time complexity:** 
+* **Space complexity:** 
+
+## Approach 5: 
+
+**Intution & Algorithm**
+
+```java
 
 ```
 
