@@ -71,6 +71,8 @@
     * [A 25. Reverse Nodes in k-Group](computer-science/leetcode/1-100/a-25.-reverse-nodes-in-k-group.md)
     * [C 26. Remove Duplicates from Sorted Array](computer-science/leetcode/1-100/c-26.-remove-duplicates-from-sorted-array.md)
     * [C 27. Remove Element](computer-science/leetcode/1-100/c-27.-remove-element.md)
+    * [C 28. Implement strStr\(\)](computer-science/leetcode/1-100/c-28.-implement-strstr.md)
+    * [Untitled](computer-science/leetcode/1-100/untitled.md)
     * [\*A 30. Substring with Concatenation of All Words](computer-science/leetcode/1-100/a-30.-substring-with-concatenation-of-all-words.md)
     * [\*B 33. Search in Rotated Sorted Array](computer-science/leetcode/1-100/b-33.-search-in-rotated-sorted-array.md)
     * [\*A 42. Trapping Rain Water](computer-science/leetcode/1-100/a-42.-trapping-rain-water.md)
