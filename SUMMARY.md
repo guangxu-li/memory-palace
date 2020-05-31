@@ -149,6 +149,7 @@
   * [1. Regression](computer-science/machine-learning/regression.md)
   * [References - Machine Learning](computer-science/machine-learning/references.md)
 * [\*Operating System](computer-science/operating-system/README.md)
+  * [WHY STUDY OPERATING SYSTEMS?](computer-science/operating-system/why-study-operating-systems.md)
   * [PART ONE OVERVIEW](computer-science/operating-system/part-one-overview/README.md)
     * [Chapter 1 Introduction](computer-science/operating-system/part-one-overview/chapter-1-introduction.md)
   * [References - Operating System](computer-science/operating-system/references.md)
