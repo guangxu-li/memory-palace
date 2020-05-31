@@ -33,9 +33,7 @@ Explanation: The answer is "wke", with the length of 3.
              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
 
-## Solution
-
-### Approach 1: Brute Force
+## Approach 1: Brute Force
 
 #### Intuition
 
@@ -80,7 +78,7 @@ class Solution {
 
 * **Space complexity:** $$O(min(n,m))$$. We need $$O(k)$$ space for checking a substring that has no duplicate characters, where $$k$$ is the size of the `Set`. The size of the Set is upper bounded by the size of the string $$n$$ and the size of the charset/alphabet $$m$$.
 
-### Approach 2: Sliding Window
+## Approach 2: Sliding Window
 
 #### Algorithm
 
@@ -130,7 +128,7 @@ class Solution {
 * **Time complexity:** $$O(2n) = O(n)$$. In the worst case, each character is visited twice by $$i$$ and $$j$$.
 * **Space complexity:** $$O(min(m, n))$$. Same as the previous approach.
 
-### Approach 3: Sliding Window Optimized
+## Approach 3: Sliding Window Optimized
 
 We could define a mapping of the characters to its index and skip the characters immediately when we found a repeated character.
 

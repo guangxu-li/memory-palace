@@ -30,9 +30,7 @@ nums2 = [3, 4]
 The median is (2 + 3)/2 = 2.5
 ```
 
-## Solution
-
-### Approach 1: Binary Search
+## Approach 1: Binary Search
 
 ```text
           left_part          |        right_part

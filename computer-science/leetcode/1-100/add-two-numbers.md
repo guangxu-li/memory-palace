@@ -18,9 +18,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
 
-## Solution
-
-### Approach 1: Elementary Math
+## Approach 1: Elementary Math
 
 #### Intuition
 

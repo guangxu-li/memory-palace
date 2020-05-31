@@ -19,9 +19,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-## Solution
-
-### Approach 1: Brute Force
+## Approach 1: Brute Force
 
 The brute force approach is simple. Loop through each element $$x$$ and find if there is another value that equals to $$target - x$$.
 
@@ -45,7 +43,7 @@ class Solution {
 * **Time complexity:** $$O(n^2)$$. For each element, we try to find its complement by looping through the rest of array which takes $$O(n)$$time. Therefore, the time complexity is $$O(n^2)$$.
 * **Space complexity:** $$O(1)$$.
 
-### Approach 2: Two-pass Hash Table
+## Approach 2: Two-pass Hash Table
 
 The best way to maintain a mapping of each element in the array to its index is a hash table. To improve the performance, change the array to a hash table.
 
@@ -76,7 +74,7 @@ class Solution {
 * **Time complexity:** $$O(n)$$. For each element, we search its complement in the table which takes $$O(1)$$time.
 * **Space complexity:** $$O(n)$$. The hash table stores n elements.
 
-### Approach 3: One-pass Hash Table
+## Approach 3: One-pass Hash Table
 
 ```java
 class Solution {
