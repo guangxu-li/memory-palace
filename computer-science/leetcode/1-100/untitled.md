@@ -308,21 +308,73 @@ class Solution {
 
 #### Complexity Analysis
 
-* **Time complexity:** 
-* **Space complexity:** 
+* **Time complexity:** $$O(\log{n})$$. Similar to Approach 3.
+* **Space complexity:** $$O(1)$$.
 
-## Approach 5: 
+## Approach 5: Binary Long Division
 
 **Intution & Algorithm**
 
-```java
+Another way we could divide two integers is to consider how we do division in math.
 
+**Long Division in Base-10**
+
+![](../../../.gitbook/assets/image%20%2846%29.png)
+
+**Long Division in Base-2**
+
+One of the problems with using base-10 division for this problem is that in order to perform the algorithm, we'd need to be able to add the necessary `0` s onto the end of the divisor. Given that we aren't allowed to use multiplication, we can do the division in base-2 to solve it.
+
+![](../../../.gitbook/assets/image%20%2845%29.png)
+
+```java
+class Solution {
+    private static int HALF_INT_MIN = -1073741824;
+
+    public int divide(int dividend, int divisor) {
+        if (dividend == Integer.MIN_VALUE && divisor == -1) {
+            return Integer.MAX_VALUE;
+        }
+
+        int op = -1;
+        if (dividend > 0) {
+            dividend = -dividend;
+        } else {
+            op = -op;
+        }
+
+        if (divisor > 0) {
+            divisor = -divisor;
+        } else {
+            op = -op;
+        }
+
+        int maxBit = 0;
+        while (divisor >= HALF_INT_MIN && dividend <= divisor + divisor) {
+            maxBit++;
+            divisor += divisor;
+        }
+
+        int quotient = 0;
+
+        for (int bit = maxBit; bit >= 0; bit--) {
+            if (dividend <= divisor) {
+                quotient -= (1 << bit);
+                dividend -= divisor;
+            }
+
+            divisor = (divisor + 1) >> 1;
+        }
+
+        return op == -1 ? -quotient : quotient;
+    }
+}
 ```
 
 #### Complexity Analysis
 
-* **Time complexity:** 
-* **Space complexity:** 
+* **Time complexity:** $$O(\log{n})$$.
+* **Space complexity:** $$O(1)$$.
 
 
 
