@@ -74,6 +74,7 @@
     * [C 28. Implement strStr\(\)](computer-science/leetcode/1-100/c-28.-implement-strstr.md)
     * [B 29. Divide Two Integers](computer-science/leetcode/1-100/untitled.md)
     * [A 30. Substring with Concatenation of All Words](computer-science/leetcode/1-100/a-30.-substring-with-concatenation-of-all-words.md)
+    * [B 31. Next Permutation](computer-science/leetcode/1-100/b-31.-next-permutation.md)
     * [\*B 33. Search in Rotated Sorted Array](computer-science/leetcode/1-100/b-33.-search-in-rotated-sorted-array.md)
     * [\*A 42. Trapping Rain Water](computer-science/leetcode/1-100/a-42.-trapping-rain-water.md)
     * [\*B 43. Multiply Strings](computer-science/leetcode/1-100/multiply-strings.md)
