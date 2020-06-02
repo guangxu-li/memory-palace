@@ -4,7 +4,7 @@
 
 ## Approach 1: 
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 ```java
 
@@ -17,7 +17,7 @@
 
 ## Approach 2: 
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 ```java
 
@@ -30,7 +30,7 @@
 
 ## Approach 3: 
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 ```java
 
@@ -45,7 +45,7 @@
 
 ## Approach 4: 
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 ```java
 
@@ -58,7 +58,7 @@
 
 ## Approach 5: 
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 ```java
 

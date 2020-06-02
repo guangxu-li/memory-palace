@@ -36,7 +36,7 @@ Explanation: 7/-3 = truncate(-2.33333..) = -2.
 
 ## Approach 1: Repeated Subtraction
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 The simplest way is to subtract `5` from `15` repeatedly until we can no longer do so.
 
@@ -92,7 +92,7 @@ class Solution {
 
 ## Approach 2: Repeated Exponential Searches
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 Let's say we have a dividend of `93706` and a divisor of `157` . We repeatedly double `157` until it's bigger than `93706` .
 
@@ -149,7 +149,7 @@ class Solution {
 
 ## Approach 3: Adding Powers of Two
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 In the previous approach, each time we do a search, we repeatedly go through the same doubles to find the largest.
 
@@ -224,7 +224,7 @@ class Solution {
 
 ## Approach 4: Adding Powers of Two with Bit-Shifting
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 In the previous approach, we maintain a list to store doubles. Instead of creating a list, we could only store the largest doubles found at the beginning. For the following search, we could divide it by 2 repeatly until we found it's less than the dividend.
 
@@ -313,7 +313,7 @@ class Solution {
 
 ## Approach 5: Binary Long Division
 
-**Intution & Algorithm**
+**Intuition & Algorithm**
 
 Another way we could divide two integers is to consider how we do division in math.
 
