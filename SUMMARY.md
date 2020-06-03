@@ -79,6 +79,7 @@
     * [B 33. Search in Rotated Sorted Array](computer-science/leetcode/1-100/b-33.-search-in-rotated-sorted-array.md)
     * [B 34. Find First and Last Position of Element in Sorted Array](computer-science/leetcode/1-100/b-34.-find-first-and-last-position-of-element-in-sorted-array.md)
     * [C 35. Search Insert Position](computer-science/leetcode/1-100/c-35.-search-insert-position.md)
+    * [B 36. Valid Sudoku](computer-science/leetcode/1-100/b-36.-valid-sudoku.md)
     * [\*A 42. Trapping Rain Water](computer-science/leetcode/1-100/a-42.-trapping-rain-water.md)
     * [\*B 43. Multiply Strings](computer-science/leetcode/1-100/multiply-strings.md)
     * [\*A 44. Wildcard Matching](computer-science/leetcode/1-100/a-44.-wildcard-matching.md)
