@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# \*B 43. Multiply Strings
+# B 43. Multiply Strings
 
 ## [Description](https://leetcode.com/problems/multiply-strings/)
 
