@@ -101,7 +101,7 @@
     * [\*B 156. Binary Tree Upside Down](computer-science/leetcode/101-200/b-156.-binary-tree-upside-down.md)
     * [\*B 159. Longest Substring with At Most Two Distinct Characters](computer-science/leetcode/101-200/longest-substring-with-at-most-two-distinct-characters.md)
     * [C 167. Two Sum II - Input array is sorted](computer-science/leetcode/101-200/two-sum-ii-input-array-is-sorted.md)
-    * [\*C 170. Two Sum III - Data structure design](computer-science/leetcode/101-200/two-sum-iii-data-structure-design.md)
+    * [C 170. Two Sum III - Data structure design](computer-science/leetcode/101-200/two-sum-iii-data-structure-design.md)
     * [\*C 190. Reverse Bits](computer-science/leetcode/101-200/c-190.-reverse-bits.md)
   * [201–300](computer-science/leetcode/201-300/README.md)
     * [C 206. Reverse Linked List](computer-science/leetcode/201-300/c-206.-reverse-linked-list.md)
