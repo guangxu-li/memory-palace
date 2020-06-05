@@ -29,3 +29,46 @@ Output: "56088"
 3. Both `num1` and `num2` do not contain any leading zero, except the number 0 itself.
 4. You **must not use any built-in BigInteger library** or **convert the inputs to integer** directly.
 
+## Approach: Multiplication
+
+![](../../../.gitbook/assets/image%20%2872%29.png)
+
+```java
+class Solution {
+    public String multiply(String num1, String num2) {
+
+        int[] result = new int[num1.length() + num2.length()];
+
+        for (int i = num1.length() - 1; i >= 0; i--) {
+            for (int j = num2.length() - 1; j >= 0; j--) {
+                int curr = i + j + 1;
+                int next = i + j;
+
+                int num = (num1.charAt(i) - '0') * (num2.charAt(j) - '0') + result[curr];
+
+                result[curr] = num % 10;
+                result[next] += num / 10;
+
+            }
+        }
+
+        StringBuilder ans = new StringBuilder();
+
+        for (int i : result) {
+            if (ans.length() == 0 && i == 0) {
+                continue;
+            } else {
+                ans.append(i);
+            }
+        }
+
+        return ans.length() == 0 ? "0" : ans.toString();
+    }
+}
+```
+
+**Complexity Analysis**
+
+* **Time complexity:** $$O(M\cdot N)$$, where $$M$$ is the size of `num1` , $$N$$ is the size of `num2` .
+* **Space complexity:** $$O(M+N)$$.
+
