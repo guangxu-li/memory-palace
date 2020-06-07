@@ -31,7 +31,7 @@ Output: "56088"
 
 ## Approach: Multiplication
 
-![](../../../.gitbook/assets/image%20%2872%29.png)
+![](../../../.gitbook/assets/image%20%2874%29.png)
 
 ```java
 class Solution {
