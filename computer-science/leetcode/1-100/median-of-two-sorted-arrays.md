@@ -83,38 +83,52 @@ Loop: if imin <= imax
 
 ```java
 class Solution {
-    public double findMedianSortedArrays(int[] A, int[] B) {
-        int m = A.length;
-        int n = B.length;
-        if (m > n) { // to ensure m<=n, 0 <= j <= n
-            int[] temp = A; A = B; B = temp;
-            int tmp = m; m = n; n = tmp;
-        }
-        int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
-        while (iMin <= iMax) {
-            int i = (iMin + iMax) / 2;
-            int j = halfLen - i;
-            if (i < iMax && B[j-1] > A[i]){
-                iMin = i + 1; // i is too small
-            }
-            else if (i > iMin && A[i-1] > B[j]) {
-                iMax = i - 1; // i is too big
-            }
-            else { // i is perfect
-                int maxLeft = 0;
-                if (i == 0) { maxLeft = B[j-1]; }
-                else if (j == 0) { maxLeft = A[i-1]; }
-                else { maxLeft = Math.max(A[i-1], B[j-1]); }
-                if ( (m + n) % 2 == 1 ) { return maxLeft; }
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
-                int minRight = 0;
-                if (i == m) { minRight = B[j]; }
-                else if (j == n) { minRight = A[i]; }
-                else { minRight = Math.min(B[j], A[i]); }
+        if (nums1.length > nums2.length) {
+            return findMedianSortedArrays(nums2, nums1);
+        }
 
-                return (maxLeft + minRight) / 2.0;
+        int lo = 0;
+        int hi = nums1.length;
+
+        while (lo <= hi) {
+            int i = lo + (hi - lo) / 2;
+            int j = (nums1.length + nums2.length) / 2 - i;
+
+            if (i > 0 && nums1[i - 1] > nums2[j]) {
+                hi = i - 1;
+            } else if (i < nums1.length && nums1[i] < nums2[j - 1]) {
+                lo = i + 1;
+            } else {
+
+                double minRight = 0;
+
+                if (i == nums1.length) {
+                    minRight = nums2[j];
+                } else if (j == nums2.length) {
+                    minRight = nums1[i];
+                } else {
+                    minRight = Math.min(nums1[i], nums2[j]);
+                }
+
+                if (((nums1.length + nums2.length) % 2) != 0) {
+                    return minRight;
+                }
+
+                double maxLeft = 0;
+                if (i == 0) {
+                    maxLeft = nums2[j - 1];
+                } else if (j == 0) {
+                    maxLeft = nums1[i - 1];
+                } else {
+                    maxLeft = Math.max(nums1[i - 1], nums2[j - 1]);
+                }
+
+                return (maxLeft + minRight) / 2;
             }
         }
+
         return 0.0;
     }
 }
