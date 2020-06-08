@@ -91,6 +91,7 @@
     * [A 44. Wildcard Matching](computer-science/leetcode/1-100/a-44.-wildcard-matching.md)
     * [A 45. Jump Game II](computer-science/leetcode/1-100/a-45.-jump-game-ii.md)
     * [B 46. Permutations](computer-science/leetcode/1-100/b-46.-permutations.md)
+    * [B 47. Permutations II](computer-science/leetcode/1-100/b-47.-permutations-ii.md)
     * [\*A 65. Valid Number](computer-science/leetcode/1-100/a-65.-valid-number.md)
     * [\*C 67. Add Binary](computer-science/leetcode/1-100/add-binary.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
