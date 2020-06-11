@@ -96,6 +96,7 @@
     * [B 49. Group Anagrams](computer-science/leetcode/1-100/b-49.-group-anagrams.md)
     * [B. 50. Pow\(x, n\)](computer-science/leetcode/1-100/b.-50.-pow-x-n.md)
     * [A 51. N-Queens](computer-science/leetcode/1-100/a-51.-n-queens.md)
+    * [A 52. N-Queens II](computer-science/leetcode/1-100/a-52.-n-queens-ii.md)
     * [\*A 65. Valid Number](computer-science/leetcode/1-100/a-65.-valid-number.md)
     * [\*C 67. Add Binary](computer-science/leetcode/1-100/add-binary.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
