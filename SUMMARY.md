@@ -100,6 +100,7 @@
     * [A 53. Maximum Subarray](computer-science/leetcode/1-100/a-53.-maximum-subarray.md)
     * [B 54. Spiral Matrix](computer-science/leetcode/1-100/b-54.-spiral-matrix.md)
     * [B 55. Jump Game](computer-science/leetcode/1-100/b-55.-jump-game.md)
+    * [B 56. Merge Intervals](computer-science/leetcode/1-100/b-56.-merge-intervals.md)
     * [\*A 65. Valid Number](computer-science/leetcode/1-100/a-65.-valid-number.md)
     * [\*C 67. Add Binary](computer-science/leetcode/1-100/add-binary.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
