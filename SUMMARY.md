@@ -86,6 +86,7 @@
     * [C 38. Count and Say](computer-science/leetcode/1-100/c-38.-count-and-say.md)
     * [B 39. Combination Sum](computer-science/leetcode/1-100/b-39.-combination-sum.md)
     * [B 40. Combination Sum II](computer-science/leetcode/1-100/b-40.-combination-sum-ii.md)
+    * [A 41. First Missing Positive](computer-science/leetcode/1-100/a-41.-first-missing-positive.md)
     * [A 42. Trapping Rain Water](computer-science/leetcode/1-100/a-42.-trapping-rain-water.md)
     * [B 43. Multiply Strings](computer-science/leetcode/1-100/multiply-strings.md)
     * [A 44. Wildcard Matching](computer-science/leetcode/1-100/a-44.-wildcard-matching.md)
