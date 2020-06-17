@@ -105,6 +105,8 @@
     * [A 57. Insert Interval](computer-science/leetcode/1-100/a-57.-insert-interval.md)
     * [C 58. Length of Last Word](computer-science/leetcode/1-100/c-58.-length-of-last-word.md)
     * [B 59. Spiral Matrix II](computer-science/leetcode/1-100/b-59.-spiral-matrix-ii.md)
+    * [B 60. Permutation Sequence](computer-science/leetcode/1-100/b-60.-permutation-sequence.md)
+    * [B 61. Rotate](computer-science/leetcode/1-100/b-61.-rotate.md)
     * [\*A 65. Valid Number](computer-science/leetcode/1-100/a-65.-valid-number.md)
     * [\*C 67. Add Binary](computer-science/leetcode/1-100/add-binary.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
