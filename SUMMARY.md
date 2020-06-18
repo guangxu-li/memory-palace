@@ -111,6 +111,7 @@
     * [B 63. Unique Path II](computer-science/leetcode/1-100/b-63.-unique-path-ii.md)
     * [B 64. Minimum Path Sum](computer-science/leetcode/1-100/b-64.-minimum-path-sum.md)
     * [\*A 65. Valid Number](computer-science/leetcode/1-100/a-65.-valid-number.md)
+    * [C 66. Plus One](computer-science/leetcode/1-100/c-66.-plus-one.md)
     * [\*C 67. Add Binary](computer-science/leetcode/1-100/add-binary.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
     * [A 76. Minimum Window Substring](computer-science/leetcode/1-100/a-76.-minimum-window-substring.md)
