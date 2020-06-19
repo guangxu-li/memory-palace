@@ -113,6 +113,7 @@
     * [A 65. Valid Number](computer-science/leetcode/1-100/a-65.-valid-number.md)
     * [C 66. Plus One](computer-science/leetcode/1-100/c-66.-plus-one.md)
     * [C 67. Add Binary](computer-science/leetcode/1-100/add-binary.md)
+    * [A 68. Text Justification](computer-science/leetcode/1-100/a-68.-text-justification.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
     * [A 76. Minimum Window Substring](computer-science/leetcode/1-100/a-76.-minimum-window-substring.md)
     * [A 88. Merge Sorted Array](computer-science/leetcode/1-100/88.-merge-sorted-array.md)
