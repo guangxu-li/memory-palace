@@ -114,6 +114,8 @@
     * [C 66. Plus One](computer-science/leetcode/1-100/c-66.-plus-one.md)
     * [C 67. Add Binary](computer-science/leetcode/1-100/add-binary.md)
     * [A 68. Text Justification](computer-science/leetcode/1-100/a-68.-text-justification.md)
+    * [A 69. Sqrt\(x\)](computer-science/leetcode/1-100/a-69.-sqrt-x.md)
+    * [C 70. Climbing Stairs](computer-science/leetcode/1-100/c-70.-climbing-stairs.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
     * [A 76. Minimum Window Substring](computer-science/leetcode/1-100/a-76.-minimum-window-substring.md)
     * [A 88. Merge Sorted Array](computer-science/leetcode/1-100/88.-merge-sorted-array.md)
@@ -187,4 +189,14 @@
   * [PART ONE OVERVIEW](computer-science/operating-system/part-one-overview/README.md)
     * [Chapter 1 Introduction](computer-science/operating-system/part-one-overview/chapter-1-introduction.md)
   * [References - Operating System](computer-science/operating-system/references.md)
+
+## Mathematics
+
+* [Inbox](mathematics/inbox/README.md)
+  * [\* Newton's Method](mathematics/inbox/newtons-method.md)
+* [Algebra](mathematics/algebra.md)
+* [Applied Mathematics](mathematics/applied-mathematics/README.md)
+  * [Numerical Analysis](mathematics/applied-mathematics/numerical-analysis/README.md)
+    * [Root-Finding Algorithm](mathematics/applied-mathematics/numerical-analysis/root-finding-algorithm.md)
+* [Calculus and Analysis](mathematics/calculus-and-analysis.md)
 
