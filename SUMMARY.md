@@ -119,6 +119,7 @@
     * [B 71. Simplify Path](computer-science/leetcode/1-100/71.-simplify-path.md)
     * [A 72. Edit Distance](computer-science/leetcode/1-100/a-72.-edit-distance.md)
     * [B 73. Set Matrix Zeroes](computer-science/leetcode/1-100/b-73.-set-matrix-zeroes.md)
+    * [B 74. Search a 2D Matrix](computer-science/leetcode/1-100/b-74.-search-a-2d-matrix.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
     * [A 76. Minimum Window Substring](computer-science/leetcode/1-100/a-76.-minimum-window-substring.md)
     * [A 88. Merge Sorted Array](computer-science/leetcode/1-100/88.-merge-sorted-array.md)
