@@ -118,6 +118,7 @@
     * [C 70. Climbing Stairs](computer-science/leetcode/1-100/c-70.-climbing-stairs.md)
     * [B 71. Simplify Path](computer-science/leetcode/1-100/71.-simplify-path.md)
     * [A 72. Edit Distance](computer-science/leetcode/1-100/a-72.-edit-distance.md)
+    * [B 73. Set Matrix Zeroes](computer-science/leetcode/1-100/b-73.-set-matrix-zeroes.md)
     * [B 75. Sort Colors](computer-science/leetcode/1-100/75.-sort-colors.md)
     * [A 76. Minimum Window Substring](computer-science/leetcode/1-100/a-76.-minimum-window-substring.md)
     * [A 88. Merge Sorted Array](computer-science/leetcode/1-100/88.-merge-sorted-array.md)
