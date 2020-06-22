@@ -131,6 +131,7 @@
     * [C 83. Remove Duplicates from Sorted List](computer-science/leetcode/1-100/c-83.-remove-duplicates-from-sorted-list.md)
     * [A 84. Largest Rectangle in Histogram](computer-science/leetcode/1-100/a-84.-largest-rectangle-in-histogram.md)
     * [A 85. Maximal Rectangel](computer-science/leetcode/1-100/a-85.-maximal-rectangel.md)
+    * [C Partition List](computer-science/leetcode/1-100/c-partition-list.md)
     * [A 88. Merge Sorted Array](computer-science/leetcode/1-100/88.-merge-sorted-array.md)
     * [\*B 92. Reverse Linked List II](computer-science/leetcode/1-100/b-92.-reverse-linked-list-ii.md)
   * [101–200](computer-science/leetcode/101-200/README.md)
