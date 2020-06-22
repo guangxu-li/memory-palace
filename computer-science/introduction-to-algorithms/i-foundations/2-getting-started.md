@@ -4,7 +4,7 @@
 
 ![Figure 2.2 The operation of INSERTION-SORT on the array A = &amp;lt; 5, 2, 4, 6, 1, 3&amp;gt;.](../../../.gitbook/assets/algorithms-figure-2.2.jpg)
 
-```text
+```java
 INSERTION-SORT
 for j = 2 to A.length
     key = A[j]
@@ -85,7 +85,7 @@ The **merge sort** algorithm closely follows the divide-and-conquer paradigm. In
 * **Conquer:** Sort the two subsequnces recursively using merge sort.
 * **Combine:** Merge the two sorted subsequences to produce the sorted answer.
 
-```text
+```java
 MERGE(A, p, q, r)
 n1 = q - p + 1
 n2 = r -q
@@ -129,7 +129,7 @@ $$D(n) = \Theta(1)$$
 
 $$C(n) = \Theta(n)$$
 
-THe worst-case running time:
+The worst-case running time:
 
 $$T(n) = \begin{cases} \Theta(1) &if \ n = 1,\\ 2T(n/2) + \Theta(n) &if \ n>1. \end{cases}$$
 
