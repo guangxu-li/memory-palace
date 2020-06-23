@@ -2,7 +2,7 @@
 description: Easy
 ---
 
-# C Partition List
+# C 86. Partition List
 
 ## Description
 
