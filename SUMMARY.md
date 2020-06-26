@@ -95,7 +95,7 @@
     * [B 47. Permutations II](computer-science/leetcode/1-100/b-47.-permutations-ii.md)
     * [B 48. Rotate Image](computer-science/leetcode/1-100/b-48.-rotate-image.md)
     * [B 49. Group Anagrams](computer-science/leetcode/1-100/b-49.-group-anagrams.md)
-    * [B. 50. Pow\(x, n\)](computer-science/leetcode/1-100/b.-50.-pow-x-n.md)
+    * [B 50. Pow\(x, n\)](computer-science/leetcode/1-100/b.-50.-pow-x-n.md)
     * [A 51. N-Queens](computer-science/leetcode/1-100/a-51.-n-queens.md)
     * [A 52. N-Queens II](computer-science/leetcode/1-100/a-52.-n-queens-ii.md)
     * [A 53. Maximum Subarray](computer-science/leetcode/1-100/a-53.-maximum-subarray.md)

@@ -2,7 +2,7 @@
 description: Medium
 ---
 
-# B. 50. Pow\(x, n\)
+# B 50. Pow\(x, n\)
 
 ## Description
 

@@ -18,5 +18,3 @@ description: >-
 
 {% page-ref page="computer-science/computer-networking/" %}
 
-
-
