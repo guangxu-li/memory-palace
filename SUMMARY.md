@@ -225,3 +225,7 @@
     * [Root-Finding Algorithm](mathematics/applied-mathematics/numerical-analysis/root-finding-algorithm.md)
 * [Calculus and Analysis](mathematics/calculus-and-analysis.md)
 
+---
+
+* [Binary Tree](binary-tree.md)
+
