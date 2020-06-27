@@ -43,7 +43,7 @@
   * [Chapter 9 Multimedia Networking](computer-science/computer-networking/chapter-9-multimedia-networking.md)
   * [References - Computer Networking](computer-science/computer-networking/references-computer-networking.md)
 * [Leetcode](computer-science/leetcode/README.md)
-  * [TODO](computer-science/leetcode/template.md)
+  * [TODOs](computer-science/leetcode/template.md)
   * [1–100](computer-science/leetcode/1-100/README.md)
     * [C 1. Two Sum](computer-science/leetcode/1-100/two-sum.md)
     * [B 2. Add Two Numbers](computer-science/leetcode/1-100/b-2.-add-two-numbers.md)
