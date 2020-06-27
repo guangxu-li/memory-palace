@@ -4,7 +4,7 @@ description: >-
   engineering.
 ---
 
-# MEMORY PALACE
+# Memory Palace
 
 ## COMPUTER SCIENCE
 

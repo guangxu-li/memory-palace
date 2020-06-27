@@ -1,6 +1,6 @@
 # Table of contents
 
-* [MEMORY PALACE](README.md)
+* [Memory Palace](README.md)
 
 ## COMPUTER SCIENCE
 
