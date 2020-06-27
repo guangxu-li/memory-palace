@@ -228,4 +228,5 @@
 ---
 
 * [Binary Tree](binary-tree.md)
+* [Tree traversal](tree-traversal.md)
 
