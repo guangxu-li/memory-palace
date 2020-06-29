@@ -145,7 +145,7 @@
     * [A 97. Interleaving String](computer-science/leetcode/1-100/a-97.-interleaving-string.md)
     * [B 98. Validate Binary Search Tree](computer-science/leetcode/1-100/b-98.-validate-binary-search.md)
     * [A 99. Recover Binary Search  Tree](computer-science/leetcode/1-100/a-99.-recover-binary-search-treemd)
-    * [C 100. Same Tree](same-computer-science/leetcode/1-100/c-100.-same-tree.md)
+    * [C 100. Same Tree](computer-science/leetcode/1-100/c-100.-same-tree.md)
   * [101–200](computer-science/leetcode/101-200/README.md)
     * [C 125. Valid Palindrome](computer-science/leetcode/101-200/125.-valid-palindrome.md)
     * [\*B 148. Sort List](computer-science/leetcode/101-200/b-148.-sort-list.md)
