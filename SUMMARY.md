@@ -144,7 +144,7 @@
     * [B 96. Unique Binary Search Trees](computer-science/leetcode/1-100/b-96.-unique-binary-search-trees.md)
     * [A 97. Interleaving String](computer-science/leetcode/1-100/a-97.-interleaving-string.md)
     * [B 98. Validate Binary Search Tree](computer-science/leetcode/1-100/b-98.-validate-binary-search.md)
-    * [A 99. Recover Binary Search  Tree](computer-science/leetcode/1-100/a-99.-recover-binary-search-treemd)
+    * [A 99. Recover Binary Search  Tree](computer-science/leetcode/1-100/a-99.md)
     * [C 100. Same Tree](computer-science/leetcode/1-100/c-100.-same-tree.md)
   * [101–200](computer-science/leetcode/101-200/README.md)
     * [C 101. Symmetric Tree](computer-science/leetcode/101-200/c-101.-symmetric-tree.md)
