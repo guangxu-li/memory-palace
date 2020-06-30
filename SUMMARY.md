@@ -147,6 +147,7 @@
     * [A 99. Recover Binary Search  Tree](computer-science/leetcode/1-100/a-99.-recover-binary-search-treemd)
     * [C 100. Same Tree](computer-science/leetcode/1-100/c-100.-same-tree.md)
   * [101–200](computer-science/leetcode/101-200/README.md)
+    * [C 101. Symmetric Tree](computer-science/leetcode/101-200/c-101.-symmetric-tree.md)
     * [C 125. Valid Palindrome](computer-science/leetcode/101-200/125.-valid-palindrome.md)
     * [\*B 148. Sort List](computer-science/leetcode/101-200/b-148.-sort-list.md)
     * [B 153. Find Minimum in Rotated Sorted Array](computer-science/leetcode/101-200/b-153.-find-minimum-in-rotated-sorted-array.md)
