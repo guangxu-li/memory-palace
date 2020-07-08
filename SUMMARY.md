@@ -170,7 +170,7 @@
     * [C 121. Best Time to Buy and Sell Stock](computer-science/leetcode/101-200/c-121.-best-time-to-buy-and-sell-stock.md)
     * [C 122. Best Time to Buy and Sell Stock](computer-science/leetcode/101-200/c-122.-best-time-to-buy-and-sell-stock-ii.md)
     * [A 123. Best Time to Buy and Sell Stock](computer-science/leetcode/101-200/a-123.-best-time-to-buy-and-sell-stock-iii.md)
-    * [A 124. Best Time to Buy and Sell Stock](computer-science/leetcode/101-200/a-124.-binary-tree-maximum-path-sum.md)
+    * [A 124. Binary Tree Maximum Path Sum](computer-science/leetcode/101-200/a-124.-binary-tree-maximum-path-sum.md)
     * [C 125. Valid Palindrome](computer-science/leetcode/101-200/125.-valid-palindrome.md)
     * [\*B 148. Sort List](computer-science/leetcode/101-200/b-148.-sort-list.md)
     * [B 153. Find Minimum in Rotated Sorted Array](computer-science/leetcode/101-200/b-153.-find-minimum-in-rotated-sorted-array.md)
