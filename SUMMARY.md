@@ -203,7 +203,7 @@
     * [\*C 371. Sum of Two Integers](computer-science/leetcode/301-400/sum-of-two-integers.md)
   * [401–500](computer-science/leetcode/401-500/README.md)
     * [\*C 415. Add Strings](computer-science/leetcode/401-500/add-strings.md)
-    * [\*B 445. Add Two Numbers II](computer-science/leetcode/401-500/add-two-numbers-ii.md)
+    * [B 445. Add Two Numbers II](computer-science/leetcode/401-500/add-two-numbers-ii.md)
   * [501-600](computer-science/leetcode/501-600/README.md)
     * [\*B 516. Longest Palindromic Subsequence](computer-science/leetcode/501-600/b-516.-longest-palindromic-subsequence.md)
     * [\*B 560. Subarray Sum Equals K](computer-science/leetcode/501-600/subarray-sum-equals-k.md)
