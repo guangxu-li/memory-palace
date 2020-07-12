@@ -174,6 +174,7 @@
     * [C 125. Valid Palindrome](computer-science/leetcode/101-200/c-125.-valid-palindrome.md)
     * [\* A 126. Word Ladder II](computer-science/leetcode/101-200/a-126.-word-ladder-ii.md)
     * [\*B 127. Word Ladder](computer-science/leetcode/101-200/b-127.-word-ladder.md)
+    * [A 128. Longest Consecutive Sequence](computer-science/leetcode/101-200/a-128.-longest-consecutive-sequence.md)
     * [B 146. LRU Cache](computer-science/leetcode/101-200/b-146.-lru-cache.md)
     * [\*B 148. Sort List](computer-science/leetcode/101-200/b-148.-sort-list.md)
     * [B 153. Find Minimum in Rotated Sorted Array](computer-science/leetcode/101-200/b-153.-find-minimum-in-rotated-sorted-array.md)
