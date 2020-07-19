@@ -185,6 +185,8 @@
     * [C 136. Single Number](computer-science/leetcode/101-200/c-136.-single-number.md)
     * [B 137. Single Number II](computer-science/leetcode/101-200/b-137.-single-number-ii.md)
     * [B 138. Copy List with Random Pointer](computer-science/leetcode/101-200/b-138.-copy-list-with-random-pointer.md)
+    * [B 139. Word Break](computer-science/leetcode/101-200/b-139.-word-break.md)
+    * [A 140. Word Break II](computer-science/leetcode/101-200/a-140.-word-break-ii.md)
     * [B 146. LRU Cache](computer-science/leetcode/101-200/b-146.-lru-cache.md)
     * [\*B 148. Sort List](computer-science/leetcode/101-200/b-148.-sort-list.md)
     * [B 153. Find Minimum in Rotated Sorted Array](computer-science/leetcode/101-200/b-153.-find-minimum-in-rotated-sorted-array.md)
