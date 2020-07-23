@@ -71,7 +71,7 @@ class Solution {
 ### Complexity Analysis
 
 * **Time complexity:** $$O(\max(M, N)$$, where $$M$$ is the length of `num1` and $$N$$ is the length of `num2`.
-* **Space complexity:** $$O(max(M, N)$$.
+* **Space complexity:** $$O(\max(M, N)$$.
 
 
 
