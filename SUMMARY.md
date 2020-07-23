@@ -244,6 +244,7 @@
   * [901–1000](computer-science/leetcode/901-1000/README.md)
     * [C 937. Reorder Data in Log Files](computer-science/leetcode/901-1000/c-937.-reorder-data-in-log-files.md)
     * [C 953. Verifying an Alien Dictionary](computer-science/leetcode/901-1000/c-953.-verifying-an-alien-dictionary.md)
+    * [B 973. K Closest Points to Origin](computer-science/leetcode/901-1000/b-973.-k-closest-points-to-origin.md)
     * [\*C 977. Squares of a Sorted Array](computer-science/leetcode/901-1000/977.-squares-of-a-sorted-array.md)
     * [\*B 986. Interval List Intersections](computer-science/leetcode/901-1000/986.-interval-list-intersections.md)
     * [\*C 989. Add to Array-Form of Integer](computer-science/leetcode/901-1000/add-to-array-form-of-integer.md)
