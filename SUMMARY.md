@@ -249,6 +249,7 @@
     * [\*B 986. Interval List Intersections](computer-science/leetcode/901-1000/986.-interval-list-intersections.md)
     * [\*C 989. Add to Array-Form of Integer](computer-science/leetcode/901-1000/add-to-array-form-of-integer.md)
     * [\*A 992. Subarrays with K Different Integers](computer-science/leetcode/901-1000/subarrays-with-k-different-integers.md)
+    * [B 994. Rotting Oranges](computer-science/leetcode/901-1000/b-994.-rotting-oranges.md)
   * [1001–1100](computer-science/leetcode/1001-1100/README.md)
     * [\*C 1099. Two Sum Less Than K](computer-science/leetcode/1001-1100/two-sum-less-than-k.md)
   * [1101–1200](computer-science/leetcode/1101-1200.md)
