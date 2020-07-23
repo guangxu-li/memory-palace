@@ -256,6 +256,7 @@
   * [1101–1200](computer-science/leetcode/1101-1200/README.md)
     * [A 1192. Critical Connections in a Network](computer-science/leetcode/1101-1200/a-1192.-critical-connections-in-a-network.md)
   * [1201–1300](computer-science/leetcode/1201-1300/README.md)
+    * [B 1249. Minimum Remove to Make Valid Parentheses](computer-science/leetcode/1201-1300/b-1249.-minimum-remove-to-make-valid-parentheses.md)
     * [\*B 1265. Print Immutable Linked List in Reverse](computer-science/leetcode/1201-1300/1265.-print-immutable-linked-list-in-reverse.md)
   * [1301–1400](computer-science/leetcode/1301-1400/README.md)
     * [B 1393. Capital Gain/Loss](computer-science/leetcode/1301-1400/1393.-capital-gain-loss.md)
