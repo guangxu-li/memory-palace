@@ -216,6 +216,7 @@
     * [\*B 259. 3Sum Smaller](computer-science/leetcode/201-300/259.-3sum-smaller.md)
     * [\*B 264. Ugly Number II](computer-science/leetcode/201-300/b-264.-ugly-number-ii.md)
     * [\*C 266. Palindrome Permutation](computer-science/leetcode/201-300/c-266.-palindrome-permutation.md)
+    * [A 269. Alien Dictionary](computer-science/leetcode/201-300/a-269.-alien-dictionary.md)
     * [A 273. Integer to English Words](computer-science/leetcode/201-300/a-273.-integer-to-english-words.md)
   * [301–400](computer-science/leetcode/301-400/README.md)
     * [\*A 336. Palindrome Pairs](computer-science/leetcode/301-400/a-336.-palindrome-pairs.md)
