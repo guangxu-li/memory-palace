@@ -218,6 +218,7 @@
     * [\*C 266. Palindrome Permutation](computer-science/leetcode/201-300/c-266.-palindrome-permutation.md)
     * [A 269. Alien Dictionary](computer-science/leetcode/201-300/a-269.-alien-dictionary.md)
     * [A 273. Integer to English Words](computer-science/leetcode/201-300/a-273.-integer-to-english-words.md)
+    * [A 297. Serialize and Deserialize Binary Tree](computer-science/leetcode/201-300/a-297.-serialize-and-deserialize-binary-tree.md)
   * [301–400](computer-science/leetcode/301-400/README.md)
     * [\*A 336. Palindrome Pairs](computer-science/leetcode/301-400/a-336.-palindrome-pairs.md)
     * [\*A 340. Longest Substring with At Most K Distinct Characters](computer-science/leetcode/301-400/longest-substring-with-at-most-k-distinct-characters.md)
