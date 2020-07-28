@@ -224,6 +224,7 @@
     * [\*A 336. Palindrome Pairs](computer-science/leetcode/301-400/a-336.-palindrome-pairs.md)
     * [\*A 340. Longest Substring with At Most K Distinct Characters](computer-science/leetcode/301-400/longest-substring-with-at-most-k-distinct-characters.md)
     * [\*C 371. Sum of Two Integers](computer-science/leetcode/301-400/sum-of-two-integers.md)
+    * [B 380. Insert Delete GetRandom O\(1\)](computer-science/leetcode/301-400/b-380.-insert-delete-getrandom-o-1.md)
   * [401–500](computer-science/leetcode/401-500/README.md)
     * [C 415. Add Strings](computer-science/leetcode/401-500/add-strings.md)
     * [B 445. Add Two Numbers II](computer-science/leetcode/401-500/add-two-numbers-ii.md)
