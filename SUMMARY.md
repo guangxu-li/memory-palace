@@ -240,6 +240,7 @@
     * [\*B 516. Longest Palindromic Subsequence](computer-science/leetcode/501-600/b-516.-longest-palindromic-subsequence.md)
     * [B 560. Subarray Sum Equals K](computer-science/leetcode/501-600/subarray-sum-equals-k.md)
     * [\*B 567. Permutation in String](computer-science/leetcode/501-600/b-567.-permutation-in-string.md)
+    * [A 588. Design In-Memory File System](computer-science/leetcode/501-600/a-588.-design-in-memory-file-system.md)
   * [601–700](computer-science/leetcode/601-700/README.md)
     * [C 617. Merge Two Binary Trees](computer-science/leetcode/601-700/617.-merge-two-binary-trees.md)
     * [\*A 632. Smallest Range Covering Elements from K Lists](computer-science/leetcode/601-700/a-632.-smallest-range-covering-elements-from-k-lists.md)
