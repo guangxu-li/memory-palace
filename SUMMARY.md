@@ -211,6 +211,7 @@
     * [\*B 211. Add and Search Word - Data structure design](computer-science/leetcode/201-300/b-211.-add-and-search-word-data-structure-design.md)
     * [\*A 214. Shortest Palindrome](computer-science/leetcode/201-300/a-214.-shortest-palindrome.md)
     * [B 215. Kth Largest Element in an Array](computer-science/leetcode/201-300/b-215.-kth-largest-element-in-an-array.md)
+    * [B 221. Maximal Square](computer-science/leetcode/201-300/b-221.-maximal-square.md)
     * [A 224. Basic Calculator](computer-science/leetcode/201-300/a-224.-basic-calculator.md)
     * [\*234. Panlindrome Linked List](computer-science/leetcode/201-300/234.-panlindrome-linked-list.md)
     * [B 238. Product of Array Except Self](computer-science/leetcode/201-300/b-238.-product-of-array-except-self.md)
