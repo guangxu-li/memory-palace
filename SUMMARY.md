@@ -256,6 +256,7 @@
     * [B 763. Partition Labels](computer-science/leetcode/701-800/b-763.-partition-labels.md)
     * [A 773. Sliding Puzzle](computer-science/leetcode/701-800/a-773.-sliding-puzzle.md)
   * [801–900](computer-science/leetcode/801-900/README.md)
+    * [A 829. Consecutive Numbers Sum](computer-science/leetcode/801-900/a-829.-consecutive-numbers-sum.md)
     * [\*A 839. Similar String Groups](computer-science/leetcode/801-900/a-839.-similar-string-groups.md)
   * [901–1000](computer-science/leetcode/901-1000/README.md)
     * [C 937. Reorder Data in Log Files](computer-science/leetcode/901-1000/c-937.-reorder-data-in-log-files.md)
