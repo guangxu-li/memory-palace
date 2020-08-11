@@ -253,7 +253,7 @@
     * [C 680. Valid Palindrome II](computer-science/leetcode/601-700/680.-valid-palindrome-ii.md)
     * [B 692. Top K Frequent Words](computer-science/leetcode/601-700/b-692.-top-k-frequent-words.md)
   * [701–800](computer-science/leetcode/701-800/README.md)
-    * [Untitled](computer-science/leetcode/701-800/untitled.md)
+    * [C 706. Design HashMap](computer-science/leetcode/701-800/untitled.md)
     * [\*A 727. Minimum Window Subsequence](computer-science/leetcode/701-800/a-727.-minimum-window-subsequence.md)
     * [B 763. Partition Labels](computer-science/leetcode/701-800/b-763.-partition-labels.md)
     * [A 773. Sliding Puzzle](computer-science/leetcode/701-800/a-773.-sliding-puzzle.md)
