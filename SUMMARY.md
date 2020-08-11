@@ -249,7 +249,7 @@
     * [\*B 648. Replace Words](computer-science/leetcode/601-700/b-648.-replace-words.md)
     * [\*C 653. Two Sum IV - Input is a BST](computer-science/leetcode/601-700/two-sum-iv-input-is-a-bst.md)
     * [\*B 676. Implement Magic Dictionary](computer-science/leetcode/601-700/b-676.-implement-magic-dictionary.md)
-    * [\*C 680. Valid Palindrome II](computer-science/leetcode/601-700/680.-valid-palindrome-ii.md)
+    * [C 680. Valid Palindrome II](computer-science/leetcode/601-700/680.-valid-palindrome-ii.md)
     * [B 692. Top K Frequent Words](computer-science/leetcode/601-700/b-692.-top-k-frequent-words.md)
   * [701–800](computer-science/leetcode/701-800/README.md)
     * [\*A 727. Minimum Window Subsequence](computer-science/leetcode/701-800/a-727.-minimum-window-subsequence.md)
