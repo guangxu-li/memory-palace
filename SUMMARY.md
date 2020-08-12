@@ -231,6 +231,7 @@
     * [B 322. Coin Change](computer-science/leetcode/301-400/b-322.-coin-change.md)
     * [\*A 336. Palindrome Pairs](computer-science/leetcode/301-400/a-336.-palindrome-pairs.md)
     * [\*A 340. Longest Substring with At Most K Distinct Characters](computer-science/leetcode/301-400/longest-substring-with-at-most-k-distinct-characters.md)
+    * [348. Design Tic-Tac-Toe](computer-science/leetcode/301-400/348.-design-tic-tac-toe.md)
     * [B 362. Design Hit Counter](computer-science/leetcode/301-400/b-362.-design-hit-counter.md)
     * [\*C 371. Sum of Two Integers](computer-science/leetcode/301-400/sum-of-two-integers.md)
     * [B 380. Insert Delete GetRandom O\(1\)](computer-science/leetcode/301-400/b-380.-insert-delete-getrandom-o-1.md)
