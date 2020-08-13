@@ -210,6 +210,7 @@
     * [B 208.Implement Trie \(Prefix Tree\)](computer-science/leetcode/201-300/b-208.implement-trie-prefix-tree.md)
     * [\*B 209. Minimum Size Subarray Sum](computer-science/leetcode/201-300/b-209.-minimum-size-subarray-sum.md)
     * [\*B 211. Add and Search Word - Data structure design](computer-science/leetcode/201-300/b-211.-add-and-search-word-data-structure-design.md)
+    * [A 212. Word Search II](computer-science/leetcode/201-300/a-212.-word-search-ii.md)
     * [\*A 214. Shortest Palindrome](computer-science/leetcode/201-300/a-214.-shortest-palindrome.md)
     * [B 215. Kth Largest Element in an Array](computer-science/leetcode/201-300/b-215.-kth-largest-element-in-an-array.md)
     * [B 221. Maximal Square](computer-science/leetcode/201-300/b-221.-maximal-square.md)
