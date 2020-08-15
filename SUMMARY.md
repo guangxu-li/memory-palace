@@ -240,6 +240,7 @@
     * [B 380. Insert Delete GetRandom O\(1\)](computer-science/leetcode/301-400/b-380.-insert-delete-getrandom-o-1.md)
     * [B 394. Decode String](computer-science/leetcode/301-400/b-394.-decode-string.md)
   * [401–500](computer-science/leetcode/401-500/README.md)
+    * [C 412. Fizz Buzz](computer-science/leetcode/401-500/c-412.-fizz-buzz.md)
     * [C 415. Add Strings](computer-science/leetcode/401-500/add-strings.md)
     * [B 445. Add Two Numbers II](computer-science/leetcode/401-500/add-two-numbers-ii.md)
     * [A 460. LFU Cache](computer-science/leetcode/401-500/a-460.-lfu-cache.md)
