@@ -278,6 +278,7 @@
     * [\*A 992. Subarrays with K Different Integers](computer-science/leetcode/901-1000/subarrays-with-k-different-integers.md)
     * [B 994. Rotting Oranges](computer-science/leetcode/901-1000/b-994.-rotting-oranges.md)
   * [1001–1100](computer-science/leetcode/1001-1100/README.md)
+    * [C 1086. High Five](computer-science/leetcode/1001-1100/c-1086.-high-five.md)
     * [\*C 1099. Two Sum Less Than K](computer-science/leetcode/1001-1100/two-sum-less-than-k.md)
   * [1101–1200](computer-science/leetcode/1101-1200/README.md)
     * [A 1192. Critical Connections in a Network](computer-science/leetcode/1101-1200/a-1192.-critical-connections-in-a-network.md)
