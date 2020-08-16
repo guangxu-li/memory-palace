@@ -289,6 +289,7 @@
     * [B 1393. Capital Gain/Loss](computer-science/leetcode/1301-1400/1393.-capital-gain-loss.md)
   * [1400–1500](computer-science/leetcode/1400-1500/README.md)
     * [C 1431. Kids With the Greatest Number of Candies](computer-science/leetcode/1400-1500/1431.-kids-with-the-greatest-number-of-candies.md)
+    * [C 1480. Running Sum of 1d Array](computer-science/leetcode/1400-1500/c-1480.-running-sum-of-1d-array.md)
 * [Machine Learning](computer-science/machine-learning/README.md)
   * [\*Introduction](computer-science/machine-learning/ml-intro.md)
   * [1. Regression](computer-science/machine-learning/regression.md)
